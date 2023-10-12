@@ -1,0 +1,51 @@
+/* /assets/css/tailwind.css */
+/** 
+* @ts-ignore
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    body {
+        @apply text-lg space-y-3;
+    }
+
+    article {
+        h1 {
+            @apply text-2xl;
+        }
+
+        h2 {
+            @apply text-xl;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            @apply font-sans font-semibold py-4;
+        }
+
+        p {
+            @apply my-3;
+        }
+
+        ul,
+        ol {
+            @apply px-4
+        }
+
+        ul li {
+            @apply list-decimal;
+        }
+
+        ol li {
+            @apply list-disc ml-4;
+        }
+    }
+
+}
