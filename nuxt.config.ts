@@ -30,6 +30,9 @@ export default defineNuxtConfig({
       base64: true
     }
   },
+  routeRules:{
+    '/**': {prerender:true}
+  },
   sitemap:{
     sitemaps:true,
     defaultSitemapsChunkSize:150,
@@ -40,14 +43,7 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'system'
   },
-  image: {
-    providers: {
-      customProvider: {
-        name: 'photon',
-        provider: '~/providers/photon'
-      }
-    }
-  },
+
   // gtm: {
   //   id: 'GTM-NTG6WQ2',
   //   defer: true,
@@ -55,11 +51,5 @@ export default defineNuxtConfig({
   //   enabled: true,
   //   enableRouterSync: true,
   //   trackOnNextTick: true
-  // },
-  optimization:{
-    //@ts-ignore
-    splitChunks: {
-      maxSize: 300000
-    }
-  }
+  // }
 })
