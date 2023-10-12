@@ -1,7 +1,7 @@
 <template>
     <NuxtLayout>
         <!-- hero -->
-        <header class="bg-white dark:bg-gray-900">
+        <header class="bg-white dark:bg-gray-900 h-[650px] md:h-[500px] lg:h-[400px]">
             <UContainer class="py-16">
                 <div class="items-center lg:flex">
                     <div class="w-full lg:w-1/2">
@@ -22,9 +22,9 @@
                     </div>
 
                     <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                        <NuxtImg v-for="(item, i) in services" :key="i" :src="item.img" alt="item.label" width="300" height="200"
+                        <NuxtImg v-for="(item, i) in services" :key="i" :src="item.img" alt="item.label" width="500" height="300"
                             class="transition-all duration-300 ease-in-out"
-                            :class="i === sActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6 w-0 h-0'" />
+                            :class="i === sActive ? '' : 'hidden'" />
                     </div>
                 </div>
             </UContainer>

@@ -2,6 +2,7 @@
   <div>
     <NuxtPage />
     <UNotifications />
+    <FloatCta v-if="!route.fullPath.includes('/x/')"/>
   </div>
 </template>
 <script setup>
