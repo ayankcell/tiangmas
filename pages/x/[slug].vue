@@ -10,5 +10,5 @@ const data = await queryContent(`/x/${slug}`).findOne()
 setTimeout(() => {
     navigateTo(data.redirto,{external:true, open:{target:'_blank'}})
     useRouter().back()
-}, 2000)
+}, 500)
 </script>
