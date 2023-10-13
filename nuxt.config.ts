@@ -20,6 +20,9 @@ export default defineNuxtConfig({
     'nuxt-simple-sitemap',
     '@nuxtjs/google-fonts'
   ],
+  image:{
+    format:['webp','avif']
+  },
   googleFonts: {
     families: {
       Gabarito: {
