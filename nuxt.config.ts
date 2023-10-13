@@ -41,7 +41,7 @@ export default defineNuxtConfig({
     icons:['heroicons','simple-icons']
   },
   colorMode: {
-    preference: 'system'
+    preference: 'dark'
   },
 
   // gtm: {

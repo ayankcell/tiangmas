@@ -12,7 +12,7 @@
                 Apapun kebutuhanp promosi yang sedang anda perlukan saat ini, konsultasikan segera dengan kami.
             </template>
             <template #image>
-                <NuxtImg src="/img/page/pusing.png" alt="pusing mau promosi" width="499" height="466" />
+                <NuxtImg src="/img/page/pusing.png" alt="pusing mau promosi" width="499" height="466" :placeholder="placeHolder(499,466)"/>
             </template>
         </Hero>
         <!-- main content -->
@@ -51,6 +51,7 @@
 </template>
 
 <script setup>
+const { placeHolder } = useTiangMas()
 const layanan = [
     { title: 'Neon Box', image: '/img/page/neon-box.png', page: '/layanan/neon-box' },
     { title: 'Baliho', image: '/img/page/neon-box.png', page: '/layanan/neon-box' },
