@@ -24,6 +24,7 @@
                     <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
                         <NuxtImg v-for="(item, i) in services" :key="i" :src="item.img" alt="item.label" width="500" height="300"
                         :placeholder="placeHolder(500,300)"
+                        format="webp" quality="80"
                         loading="lazy"
                             class="transition-all duration-300 ease-in-out"
                             :class="i === sActive ? '' : 'hidden'" />
@@ -119,7 +120,7 @@
                         </p>
 
                         <div class="flex items-center mt-6">
-                            <nuxt-img class="object-cover rounded-full w-14 h-14" :src="item.photo" :alt="`testimoni dari ${item.name}, ${item.title}`" :placeholder="placeHolder(300,250)" loading="lazy"/>
+                            <nuxt-img class="object-cover rounded-full w-14 h-14" :src="item.photo" format="webp" quality="80" :alt="`testimoni dari ${item.name}, ${item.title}`" :placeholder="placeHolder(300,250)" loading="lazy"/>
                             <div class="mx-4">
                                 <h3 class="font-semibold text-blue-500">{{ item.name }}</h3>
                                 <span class="text-sm text-gray-500 dark:text-gray-300">{{ item.title }}</span>
