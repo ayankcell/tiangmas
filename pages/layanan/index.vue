@@ -12,7 +12,7 @@
                 Apapun kebutuhanp promosi yang sedang anda perlukan saat ini, konsultasikan segera dengan kami.
             </template>
             <template #image>
-                <NuxtImg src="/img/page/pusing.png" alt="pusing mau promosi" width="499" height="466" :placeholder="placeHolder(499,466)" format="webp" quality="80" provider="cloudflare"/>
+                <NuxtImg src="/img/page/pusing.png" alt="pusing mau promosi" width="499" height="466" :placeholder="placeHolder(499,466)" format="webp" quality="80" />
             </template>
         </Hero>
         <!-- main content -->
@@ -29,7 +29,7 @@
                     <div
                         class="p-3 shadow-lg rounded-md dark:text-gray-600 bg-white flex flex-col justify-center item-center space-y-2">
                         <h3 class="text-center font-semibold">{{ item.title }}</h3>
-                        <nuxt-img :src="item.image" :alt="item.title" format="webp" quality="80" :placeholder="placeHolder(256,192)" width="256" height="192" provider="cloudflare"/>
+                        <nuxt-img :src="item.image" :alt="item.title" format="webp" quality="80" :placeholder="placeHolder(256,192)" width="256" height="192" />
                         <UButton :to="item.page" size="md" color="amber" block :ui="{ font: 'font-semibold' }">Selengkapnya
                         </UButton>
                     </div>
