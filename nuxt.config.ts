@@ -41,7 +41,7 @@ export default defineNuxtConfig({
     defaultSitemapsChunkSize:150,
   },
   ui:{
-    icons:['heroicons','simple-icons']
+    icons:['heroicons','bxl']
   },
   colorMode: {
     preference: 'dark'
