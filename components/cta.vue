@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-wrap justify-center items-center py-5 gap-3">
-        <UButton size="xl" icon="i-simple-icons-whatsapp" color="green" to="/x/contact-whatsapp">
+        <UButton size="xl" icon="i-bxl-whatsapp" color="green" to="/x/contact-whatsapp">
             Konsultasi via WhatsApp
         </UButton>
         <UButton size="xl" icon="i-heroicons-map-pin" color="amber">

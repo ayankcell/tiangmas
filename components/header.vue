@@ -1,5 +1,5 @@
 <template>
-    <nav class="bg-white shadow dark:bg-gray-950">
+    <nav class="bg-gray-950">
         <div class="container px-6 py-4 mx-auto">
             <div class="lg:flex lg:items-center">
                 <div class="flex items-center justify-between">
@@ -10,7 +10,7 @@
                             <path fill="#223c3c"
                                 d="M10.359 18.979c0.003 -0.064 0.084 -3.187 0.18 -6.938s0.177 -6.86 0.18 -6.906l0.005 -0.085h0.353l-0.003 0.099 -0.177 6.874a6684.56 6684.56 0 0 1 -0.18 6.924l-0.005 0.15h-0.358zm1.42 0.11a179.099 179.099 0 0 1 -0.101 -1.988 160.275 160.275 0 0 1 -0.087 -11.574c0.007 -0.255 0.013 -0.499 0.013 -0.54 0 -0.044 0.004 -0.075 0.009 -0.073 0.013 0.004 2.104 1.689 2.112 1.702 0.004 0.006 0.01 0.274 0.013 0.595a128.17 128.17 0 0 0 0.697 11.878c0 0.005 -0.496 0.009 -1.328 0.009 -0.73 0 -1.328 -0.004 -1.328 -0.007z" />
                         </svg>
-                        <div class="flex flex-col">
+                        <div class="flex flex-col text-white">
                             <div class="font-gabarito font-bold text-2xl">TIANG<span class="text-amber-400">MAS</span></div>
                             <div class="text-xs">Advertising & Contractors</div>
                         </div>
@@ -19,7 +19,7 @@
                     <!-- Mobile menu button -->
                     <div class="flex lg:hidden">
                         <button @click="isOpen = !isOpen" type="button"
-                            class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
+                            class="text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
                             aria-label="toggle menu">
                             <svg v-show="!isOpen" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -35,11 +35,11 @@
                 </div>
 
                 <div :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']"
-                    class="absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-950 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between">
+                    class="absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-gray-950 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between">
                     <div
-                        class="flex flex-col text-gray-600 capitalize dark:text-gray-300 lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
+                        class="flex flex-col capitalize text-gray-300 lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
                         <ULink :to="nav.to" v-for="nav of navMenus" :key="nav.to"
-                            class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">
+                            class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-200">
                             {{ nav.label }}
                         </ULink>
                     </div>

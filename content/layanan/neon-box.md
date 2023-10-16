@@ -1,7 +1,7 @@
 ---
 title: 'Neon Box di Lampung: Temukan Kualitas Terbaik dengan Tiang Mas'
+pageTitle: 'Neon Box Lampung'
 description: 'Cari Jasa Pembuatan Neon Box di Lampung? Tiang Mas Advertising hadir untuk solusi iklan terbaik Anda. Menarik, berkualitas, dan terjangkau'
-image: ''
 head: 
     -'Neon Box Lampung | Jasa Pembuatan Neon Box Terbaik di Lampung'
 ---

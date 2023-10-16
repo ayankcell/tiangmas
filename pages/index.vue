@@ -1,12 +1,12 @@
 <template>
     <NuxtLayout>
         <!-- hero -->
-        <header class="bg-white dark:bg-gray-900 h-[650px] md:h-[500px] lg:h-[400px]">
+        <header class="bg-gray-900 h-[650px] md:h-[500px] lg:h-[400px]">
             <UContainer class="py-16">
                 <div class="items-center lg:flex">
                     <div class="w-full lg:w-1/2">
                         <div class="lg:max-w-lg">
-                            <h1 class="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Tempat terbaik
+                            <h1 class="text-3xl font-semibold text-white lg:text-4xl">Tempat terbaik
                                 untuk kebutuhan
                                 <span class="text-amber-500 transition-all duration-300 ease-in-out block"
                                     v-for="(item, i) in services" :key="i"
@@ -14,7 +14,7 @@
                                         item.label }}</span>
                             </h1>
 
-                            <p class="mt-3 text-gray-600 dark:text-gray-400">
+                            <p class="mt-3 text-gray-400">
                                 Berpengalaman dalam menghasilkan kebutuhan branding bisnis yang sesuai harapan. Dipercaya
                                 oleh pelanggan korporasi dan UMKM di Lampung & Sekitarnya.
                             </p>
@@ -66,30 +66,30 @@
             </UContainer>
         </section>
         <!--layanan-->
-        <section class="bg-white dark:bg-gray-900 py-12">
+        <section class="bg-gray-900 py-12">
             <UContainer>
-                <h2 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Layanan Kami <br>
+                <h2 class="text-2xl font-semibold capitalize lg:text-3xl text-white">Layanan Kami <br>
                     untuk <span class="underline decoration-blue-500">Anda</span></h2>
 
-                <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
+                <p class="mt-4 xl:mt-6 text-gray-300">
                     Apa pun kebutuhan branding anda, kami menyediakan semuanya!
                 </p>
 
                 <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
                     <div v-for="(item, i) in layanan" :key="i" class="space-y-3">
                         <span
-                            class="flex justify-center items-center p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500 h-10 w-10">
+                            class="flex justify-center items-center p-3 rounded-full text-white bg-blue-500 h-10 w-10">
                             <UIcon :name="item.icon" />
                         </span>
 
-                        <h3 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">{{ item.title }}</h3>
+                        <h3 class="text-xl font-semibold capitalize text-white">{{ item.title }}</h3>
 
-                        <p class="text-gray-500 dark:text-gray-300">
+                        <p class="text-gray-300">
                             {{ item.description }}
                         </p>
 
                         <nuxt-link :to="item.page"
-                            class="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                            class="inline-flex items-center -mx-1 text-sm capitalize transition-colors duration-300 transform text-blue-400 hover:underline hover:text-blue-500">
                             <span class="mx-1">Selengkapnya</span>
                             <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@
 
                 <div class="grid grid-cols-1 gap-8 mx-auto mt-8 lg:grid-cols-2 xl:mt-10 max-w-7xl">
                     <div v-for="(item, i) in testimonials" :key="i" class="p-6 bg-gray-600 rounded-lg md:p-8">
-                        <p class="leading-loose text-gray-500 dark:text-gray-300">
+                        <p class="leading-loose text-gray-300">
                             “{{ item.description }}”.
                         </p>
 
@@ -124,7 +124,7 @@
                             <nuxt-img class="object-cover rounded-full w-14 h-14" :src="item.photo" format="webp" quality="80" :alt="`testimoni dari ${item.name}, ${item.title}`" :placeholder="placeHolder(300,250)" loading="lazy" />
                             <div class="mx-4">
                                 <h3 class="font-semibold text-blue-500">{{ item.name }}</h3>
-                                <span class="text-sm text-gray-500 dark:text-gray-300">{{ item.title }}</span>
+                                <span class="text-sm text-gray-300">{{ item.title }}</span>
                             </div>
                         </div>
                     </div>
@@ -147,10 +147,10 @@
 const { placeHolder } = useTiangMas()
 const sActive = ref(0)
 const services = [
-    { label: 'Huruf Timbul', img: '/img/page/huruf-timbul.png' },
-    { label: 'Baliho', img: '/img/page/billboard.png' },
-    { label: 'Neon Box', img: '/img/page/neon-box.png' },
-    { label: 'Semua Periklanan Anda', img: '/img/page/billboard.png' },
+    { label: 'Huruf Timbul', img: '/img/pageassets/huruf-timbul.png' },
+    { label: 'Baliho', img: '/img/pageassets/billboard.png' },
+    { label: 'Neon Box', img: '/img/pageassets/neon-box.png' },
+    { label: 'Semua Periklanan Anda', img: '/img/pageassets/billboard.png' },
 ]
 /** berkala ganti service yang tampil */
 const rotateService = () => {
@@ -170,7 +170,7 @@ const theReasons = [
         title: 'Dikerjakan dengan baik', icon: 'i-heroicons-check', text: 'Setiap projek adalah unik, sehingga kami selalu mengerjakan dengan perhatian ekstra untuk mendapatkan hasil  terbaik.'
     },
     {
-        title: 'Tepat Waktu', icon: 'i-simple-icons-speedtest',
+        title: 'Tepat Waktu', icon: 'i-bxl-speedtest',
         text: 'Hasil pekerjaan terbaik, tidak akan sempurna jika dikerjakan terlambat.  Kami selalu memperhatikan deadline dengan ketat.'
     },
     {
@@ -182,14 +182,14 @@ const theReasons = [
 const testimonials = [
     {
         name: 'Saprudin',
-        photo: '/img/page/user-testimonials-example.jpg',
+        photo: '/img/pageassets/user-testimonials-example.jpg',
         title: 'Owner, Warung Bakso Mang Udin - Lampung',
         description: 'Saya puas dengan hasil pengerjaan Tiang Mas Advertising ini.  Jadwalnya gak ngaret. Tepat waktu buat cabang baru.'
     },
     {
         name: 'Ikhsan',
         title: 'Store Manager, Sabar Subur Mart - Bandar Lampung',
-        photo: '/img/page/user-testimonials-example.jpg',
+        photo: '/img/pageassets/user-testimonials-example.jpg',
         description: 'Komunikasi dengan team di Tiang Mas sangat menyenangkan.  Selain itu pengerjaan sesuai spek yang diberikan.  Good job!'
     }
 ]

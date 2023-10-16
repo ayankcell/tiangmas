@@ -1,7 +1,7 @@
 ---
 title: 'Tentang Tiang Mas Advertising'
 description: 'Tentang Tiang Mas Advertising'
-image: '/img/page/tiang-mas-billboard.jpg'
+image: '/img/pageassets/tiang-mas-billboard.jpg'
 ---
 **Pentingnya Branding dan Advertising**
 
