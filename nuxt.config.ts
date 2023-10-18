@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts'
   ],
   image:{
-    format:['webp','avif']
+    format:['webp']
   },
   googleFonts: {
     families: {
