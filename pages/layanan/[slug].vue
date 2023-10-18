@@ -2,8 +2,8 @@
     <NuxtLayout>
         <main class="pt-5 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
             <div class="max-w-screen-xl mx-auto flex justify-center items-center -mt-8 lg:-mt-16">
-                <nuxt-img :src="pageData.image" class="w-full lg:w-[768px] lg:h-[519px] object-cover" width="768"
-                    height="519" format="webp" quality="80" :placeholder="placeHolder(768, 519)" />
+                <nuxt-img v-if="pageData.image" :src="pageData.image" class="w-full lg:w-[768px] lg:h-[519px] object-cover" width="768"
+                    height="519"  quality="80" :placeholder="placeHolder(768, 519)" />
             </div>
             <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
                 <article

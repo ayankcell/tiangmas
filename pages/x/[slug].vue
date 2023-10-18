@@ -6,9 +6,10 @@
 <script setup>
 const slug = useRoute().params.slug
 const data = await queryContent(`/x/${slug}`).findOne()
+console.log(data)
 
-setTimeout(() => {
-    navigateTo(data.redirto,{external:true, open:{target:'_blank'}})
-    useRouter().back()
-}, 500)
+// setTimeout(() => {
+//     navigateTo(data.redirto,{external:true, open:{target:'_blank'}})
+//     useRouter().back()
+// }, 500)
 </script>

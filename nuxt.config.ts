@@ -33,9 +33,9 @@ export default defineNuxtConfig({
       base64: true
     }
   },
-  routeRules:{
-    '/**': {prerender:true}
-  },
+  // routeRules:{
+  //   '/**': {prerender:true}
+  // },
   sitemap:{
     sitemaps:true,
     defaultSitemapsChunkSize:150,
