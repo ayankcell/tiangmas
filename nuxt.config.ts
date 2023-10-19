@@ -21,7 +21,13 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts'
   ],
   image:{
-    format:['webp']
+    format:['webp'],
+    providers:{
+      photon:{
+        name: 'photon',
+        provider : '~/providers/photon'
+      }
+    }
   },
   googleFonts: {
     families: {
