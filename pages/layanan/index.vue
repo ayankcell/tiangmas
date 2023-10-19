@@ -13,7 +13,7 @@
             </template>
             <template #image>
                 <nuxt-img provider="photon" src="/img/pageassets/pusing.png" alt="pusing mau promosi" width="499" height="466"
-                    :placeholder="placeHolder(499, 466)"  quality="80" />
+                    :placeholder="placeHolder('/img/pageassets/pusing.png')"  quality="80" />
             </template>
         </Hero>
         <!-- main content -->
@@ -31,8 +31,8 @@
                         <div
                             class="p-3 shadow-lg rounded-md dark:text-gray-600 bg-white flex flex-col justify-center item-center space-y-2">
                             <h3 class="text-gray-600 text-center font-semibold">{{ content.pageTitle }}</h3>
-                            <nuxt-img provider="photon" :src="content.image ?? placeHolder(256, 192)" :alt="content.pageTitle" 
-                                quality="80" :placeholder="placeHolder(256, 192)" width="256" height="192" class="rounded-md w-full" />
+                            <nuxt-img provider="photon" :src="content.image ?? placeHolder('',{showSVG:true,width:256,height:192})" :alt="content.pageTitle" 
+                                quality="80" :placeholder="placeHolder()" width="256" height="192" class="rounded-md w-full" />
                             <UButton :to="content._path" size="md" color="gray" block :ui="{ font: 'font-semibold' }">
                                 Selengkapnya
                             </UButton>
