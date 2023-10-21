@@ -24,6 +24,9 @@ export default defineNuxtConfig({
     format:['webp'],
     providers:{
       photon:{
+        options:{
+          baseDomain:'tiangmas.pages.dev',
+        },
         name: 'photon',
         provider : '~/providers/photon'
       }
