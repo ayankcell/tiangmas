@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NuxtLoadingIndicator />
     <NuxtPage />
     <UNotifications />
     <FloatCta v-if="!route.fullPath.includes('/x/')"/>
