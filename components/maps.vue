@@ -27,6 +27,6 @@ onMounted(() => {
     setTimeout(() => {
         maplistner()
         mapLoaded.value = true;
-    }, 3000);
+    }, 2000);
 })
 </script>
