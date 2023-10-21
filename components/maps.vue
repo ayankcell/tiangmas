@@ -15,6 +15,7 @@ onMounted(() => {
         frame.width = '100%'
         frame.height = '450'
         frame.style = 'border:0'
+        frame.title="Navigasi Google Maps Tiangmas Adv Lampung"
         frame.allowfullscreen = true
         frame.referrerpolicy = 'no-referrer-when-downgrade'
 
