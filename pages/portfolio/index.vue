@@ -13,7 +13,7 @@
                                 class="group shadow-md h-80 rounded-md overflow-hidden flex flex-col ">
                                 <!-- image -->
                                 <div class="flex-grow overflow-hidden">
-                                    <NuxtImg :src="content.image.url" class="w-full object-cover h-full" loading="lazy"
+                                    <NuxtImg :src="content.image.url" provider="photon" quality="80" class="w-full object-cover h-full" loading="lazy"
                                         :placeholder="placeHolder('',{width:100, height:100})" />
                                     <div
                                         class="flex flex-col justify-center items-center transition-all duration-200 p-3 bg-black bg-opacity-60 text-white 
