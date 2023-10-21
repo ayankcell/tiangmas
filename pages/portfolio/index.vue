@@ -1,0 +1,43 @@
+<template>
+    <NuxtLayout>
+        <header class="py-8">
+            <h1 class="uppercase text-center text-xl lg:text-2xl text-gray-700">Yang Kami Kerjakan di Tiangmas Advertising & Contractors
+            </h1>
+        </header>
+        <main class="py-8">
+            <UContainer class="min-h-screen">
+                <div class="flex flex-wrap">
+                    <ContentList path="/portfolio" v-slot="{ list }">
+                        <div class="w-full md:w-1/2 lg:w-1/3 p-3" v-for="content in list" :key="content._path">
+                            <NuxtLink :to="content._path"
+                                class="group shadow-md h-80 rounded-md overflow-hidden flex flex-col ">
+                                <!-- image -->
+                                <div class="flex-grow overflow-hidden">
+                                    <NuxtImg :src="content.image.url" class="w-full object-cover h-full" loading="lazy"
+                                        :placeholder="placeHolder('',{width:100, height:100})" />
+                                    <div
+                                        class="flex flex-col justify-center items-center transition-all duration-200 p-3 bg-black bg-opacity-60 text-white 
+                                        group-hover:-translate-y-full group-hover:h-full">
+                                        <div class="line-clamp-3">{{ content.description }}</div>
+                                        <UButton icon="i-heroicons-magnifying-glass-plus" color="white"/>
+                                    </div>
+                                </div>
+                                <!-- title -->
+                                <div class="p-2 h-1/6 flex justify-between items-center">
+                                    <span class="line-clamp-1">{{ content.title }}</span><UButton icon="i-heroicons-chevron-right" variant="ghost" color="gray" :to="content._path"/>
+                                </div>
+                            </NuxtLink>
+                        </div>
+                    </ContentList>
+                </div>
+            </UContainer>
+        </main>
+    </NuxtLayout>
+</template>
+<script setup>
+const { placeHolder } = useTiangMas()
+useSeoMeta({
+    title: 'Galeri Portofolio :: Yang Kami Kerjakan di Tiangmas Advertising & Contractors',
+    description: 'Lihat daftar produk dan jasa yang kami kerjakan untuk client kami.  Anda pun dapat memilikinya untuk promosi bisnis dan event anda!'
+})
+</script>

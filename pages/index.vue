@@ -144,8 +144,8 @@
 const { placeHolder } = useTiangMas()
 const sActive = ref(0)
 const services = [
+{ label: 'Billboard', img: '/img/pageassets/billboard.png' },
     { label: 'Huruf Timbul', img: '/img/pageassets/huruf-timbul.png' },
-    { label: 'Billboard', img: '/img/pageassets/billboard.png' },
     { label: 'Neon Box', img: '/img/pageassets/neon-box.png' },
     { label: 'Semua Periklanan Anda', img: '/img/pageassets/billboard.png' },
 ]
