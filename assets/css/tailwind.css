@@ -10,6 +10,15 @@
 
     body {
         @apply text-lg space-y-3;
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            @apply font-gabarito font-semibold py-4;
+        }
     }
 
     article {
@@ -27,7 +36,7 @@
         h4,
         h5,
         h6 {
-            @apply font-sans font-semibold py-4;
+            @apply font-gabarito font-semibold py-4;
         }
 
         p {
