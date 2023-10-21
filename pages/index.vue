@@ -23,7 +23,7 @@
 
                     <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
                         <nuxt-img provider="photon" v-for="(item, i) in services" :key="i" :src="item.img" alt="item.label" width="500"
-                            height="300" :placeholder="placeHolder(item.img)" quality="80" loading="lazy"
+                            height="300" :placeholder="placeHolder(item.img)" quality="80" :loading="i==0?'eager': 'lazy'"
                             class="transition-all duration-300 ease-in-out" :class="i === sActive ? '' : 'hidden'" />
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const { placeHolder } = useTiangMas()
 const sActive = ref(0)
 const services = [
     { label: 'Huruf Timbul', img: '/img/pageassets/huruf-timbul.png' },
-    { label: 'Baliho', img: '/img/pageassets/billboard.png' },
+    { label: 'Billboard', img: '/img/pageassets/billboard.png' },
     { label: 'Neon Box', img: '/img/pageassets/neon-box.png' },
     { label: 'Semua Periklanan Anda', img: '/img/pageassets/billboard.png' },
 ]
