@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     providers:{
       photon:{
         options:{
-          baseDomain:'tiangmas.pages.dev',
+          baseDomain:'tiangmas.com',
         },
         name: 'photon',
         provider : '~/providers/photon'
