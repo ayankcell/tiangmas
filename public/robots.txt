@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /*
+Disallow: /x/*
+
+Sitemap: https://tiangmas.com/sitemap_index.xml
