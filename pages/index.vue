@@ -1,7 +1,7 @@
 <template>
     <NuxtLayout>
         <!-- hero -->
-        <header class="bg-gray-900 h-[650px] md:h-[500px] lg:h-[400px]">
+        <header class="bg-gray-900 h-fit">
             <UContainer class="py-16">
                 <div class="items-center lg:flex">
                     <div class="w-full lg:w-1/2">
@@ -21,10 +21,10 @@
                         </div>
                     </div>
 
-                    <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+                    <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2 h-[250px] md:h-80 overflow-hidden">
                         <nuxt-img provider="photon" v-for="(item, i) in services" :key="i" :src="item.img" alt="item.label" width="500"
                             height="300" :placeholder="placeHolder(item.img)" quality="80" :loading="i==0?'eager': 'lazy'"
-                            class="transition-all duration-300 ease-in-out" :class="i === sActive ? '' : 'hidden'" />
+                            class="transition-all duration-300 ease-in-out -transla" :class="i === sActive ? 'translate-x-0' : '-translate-x-32 w-0'" />
                     </div>
                 </div>
             </UContainer>
@@ -210,6 +210,7 @@ const layanan = [
 ]
 
 useSeoMeta({
-    title: 'Solusi Branding & Advertising di Lampung | PT. Tiang Mas Teknik Perdana'
+    title: 'Solusi Branding & Advertising di Lampung | PT. Tiang Mas Teknik Perdana',
+    description: 'Tiangmas Advertising adalah salah satu perusahaan kontraktor dan periklanan di Lampung.  Tiangmas memiliki asset billboar di sejumlah titik strategis di seluruh provinsi Lampung.  Tiangmas juga mengerjakan konstruksi untuk bisnis dan perorangan.'
 })
 </script>
