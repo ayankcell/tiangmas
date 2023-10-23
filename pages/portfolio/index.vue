@@ -23,8 +23,8 @@
                                     </div>
                                 </div>
                                 <!-- title -->
-                                <div class="p-2 h-1/6 flex justify-between items-center">
-                                    <span class="line-clamp-1">{{ content.title }}</span><UButton icon="i-heroicons-chevron-right" variant="ghost" color="gray" :to="content._path"/>
+                                <div class="p-2 h-1/6 flex justify-between items-center text-gray-700">
+                                    <span class="line-clamp-1 w-11/12">{{ content.title }}</span><UIcon name="i-heroicons-chevron-right"/>
                                 </div>
                             </NuxtLink>
                         </div>
