@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   // devtools: { enabled: true },
   site: {
     url: 'https://tiangmas.com',
-    name: 'Tiangmas',
+    name: 'Tiangmas Advertising Lampung',
     trailingSlash:true
   },
   app: {
@@ -23,6 +23,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/content',
     'nuxt-simple-sitemap',
+    'nuxt-schema-org',
     '@nuxtjs/google-fonts'
   ],
   image:{

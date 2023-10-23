@@ -6,7 +6,7 @@
         <UButton size="xl" icon="i-heroicons-map-pin" color="amber" to="/x/map-navigation">
             Kunjungi Workshop Kami
         </UButton>
-        <UButton size="xl" icon="i-heroicons-magnifying-glass" color="sky">
+        <UButton size="xl" icon="i-heroicons-magnifying-glass" color="sky" to="/portfolio">
             Lihat Contoh Yang Kami Kerjakan
         </UButton>
     </div>

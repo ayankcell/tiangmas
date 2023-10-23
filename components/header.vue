@@ -58,6 +58,6 @@ const navMenus = [
     { label: 'Profil Perusahaan', to: '/p/profil' },
     { label: 'Layanan', to: '/layanan' },
     { label: 'Galeri Portofolio', to: '/portfolio' },
-    { label: 'Kontak', to: '/' },
+    { label: 'Kontak', to: '/p/kontak' },
 ]
 </script>

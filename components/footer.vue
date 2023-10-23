@@ -75,6 +75,5 @@ const profileLinks = [
     {label:'Beranda', to:'/'},
     { label: 'Tentang Perusahaan', to: '/p/profil' },
     { label: 'Kontak', to: '/p/kontak' },
-    { label: 'Penawaran', to: '/p/penawaran' },
 ]
 </script>
