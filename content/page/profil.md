@@ -1,6 +1,6 @@
 ---
 title: 'Tentang Tiang Mas Advertising'
-description: 'Tentang Tiang Mas Advertising'
+description: 'Profil Singkat Tiang Mas Advertising Lampung.  Kami adalah mitra yang dapat diandalkan untuk mengembangkan bisnis Anda.  Temukan produk yang sesuai dengan keperluan Bisnis Anda di sini.'
 image: 
     url: '/img/pageassets/tiang-mas-billboard.jpg'
     altText: 'Billboard Tiang Mas Advertising'
@@ -26,7 +26,10 @@ Tiang Mas Advertising Lampung bukan hanya perusahaan biasa. Tiangmas Advertising
 
 1. **Advertising Luar Ruang:** Tiang Mas Advertising Lampung memiliki jaringan luas billboard dan media luar ruang lainnya di Lampung.
 2. **Advertising Dalam Ruang:** Kami juga menawarkan solusi advertising dalam ruang seperti spanduk, neon box, dan papan reklame indoor.
-3. **Advertising Digital:** Perkembangan teknologi digital juga menjadi fokus Tiangmas Advertising Lampung, sehingga Anda bisa mengandalkan Tiangmas Advertising Lampung untuk solusi advertising online yang efektif.
+3. **Konstruksi:** Selain menyediakan media periklanan, Tiang Mas juga hadir memberikan solusi untuk keperluan konstruksi dan pembuatan booth untuk usaha anda.
+
+::contentVideo{url="/video/laser-speed.mp4" width="600" height="320"}
+::
 
 ### Pendekatan Unik Tiang Mas Advertising Lampung
 
