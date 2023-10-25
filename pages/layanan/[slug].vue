@@ -21,7 +21,7 @@
         </main>
     </NuxtLayout>
 </template>
-<script setup>
+<script setup> 
 const slug = useRoute().params.slug
 const route = useRoute()
 const { placeHolder } = useTiangMas()
