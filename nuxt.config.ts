@@ -11,6 +11,9 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'id'
       },
+      script: [
+        { type: 'application/ld+json', innerHTML: `{"@context": "https://schema.org","@type": "Organization","url": "https://tiangmas.com","logo": "https://www.sadiskon.com/tiangmas-icon.png"}` }
+      ],
       link: [
         { rel: 'preconnect', href: 'https://i0.wp.com' },
         { rel: 'preconnect', href: 'https://i1.wp.com' },
