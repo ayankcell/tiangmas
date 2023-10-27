@@ -57,6 +57,9 @@ export default defineNuxtConfig({
   sitemap:{
     sitemaps:true,
     defaultSitemapsChunkSize:150,
+    exclude:[
+      '/x/**'
+    ]
   },
   ui:{
     icons:['heroicons','bxl']
