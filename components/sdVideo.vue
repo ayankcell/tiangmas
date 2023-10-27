@@ -2,10 +2,6 @@
     <div class="flex justify-center items-center py-8" id="tiangmas-video">
         <NuxtImg :src="placeHolder('',{width:width,height:height})" loading="lazy" provider="photon" alt="Peta Lokasi Tiangmas Adv"
         :width="width" :height="height" v-show="!videoLoaded" />
-        <!-- <video :width="width" :height="height" controls autoplay>
-            <source :src="url" type="video/mp4">
-            Your browser does not support the video tag.
-        </video> -->
     </div>
 </template>
 <script setup>
@@ -34,4 +30,15 @@ onMounted(()=>{
         videoLoaded.value = true
     },3000)
 })
+
+useSchemaOrg([
+    defineVideo({
+        url: props.url,
+        inLanguage: 'id-ID',
+        width: props.width,
+        height: props.height,
+        thumbnailUrl: placeHolder('',{width:props.width,height:props.height}),
+        uploadDate: new Date().toString()
+    })
+])
 </script>
