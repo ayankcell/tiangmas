@@ -34,9 +34,10 @@
                                 <ULink :to="content._path">
                                     <nuxt-img provider="photon"
                                         :src="content.coverImage ? content.coverImage.url : placeHolder('', { showSVG: true, width: 256, height: 192 })"
-                                        :alt="content.coverImage ? content.coverImage.altText : content.title"
-                                        quality="80" :placeholder="placeHolder()" width="346" height="208"
-                                        class="w-full h-full object-cover" />
+                                        :alt="content.coverImage ? content.coverImage.altText : content.title" :placeholder="placeHolder('', { showSVG: true, width: 256, height: 192 })" width="381" height="208"
+                                        class="w-full h-full object-cover" :modifiers="{
+                                            lb:'381,208'
+                                        }"/>
                                 </ULink>
                             </div>
                             <div class="p-3">
