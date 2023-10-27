@@ -1,5 +1,8 @@
 ---
 title: "Neon Box"
+coverImage:
+  url: "/img/pageassets/neon-box-darmajaya.jpg"
+  altText: "Neon Box Lampung IB Darmajaya Bandar Lampung"
 head:
   title: "Neon Box di Lampung: Temukan Kualitas Terbaik dengan Tiang Mas"
   description: 'Cari Jasa Pembuatan Neon Box di Lampung? Tiang Mas Advertising hadir untuk solusi iklan terbaik Anda. Menarik, berkualitas, dan terjangkau'
@@ -25,11 +28,6 @@ Neon box juga berfungsi sebagai penanda lokasi yang jelas. Mereka membantu orang
 ### Pencahayaan Efektif
 
 Dalam dunia yang didominasi oleh visual, pencahayaan yang efektif sangat penting. Neon box mampu memberikan pencahayaan yang menonjolkan merek Anda di antara kompetisi.
-
-## Contoh Neon Box
-
-::carousel
-::
 
 ## Anda Sedang Membutuhkan Neon Box untuk Bisnis?
 Segera Hubungi kami!

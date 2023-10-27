@@ -64,9 +64,9 @@
 </template>
 <script setup>
 const services = [
-    { label: 'Baliho', to: '/layanan/baliho' },
+    { label: 'Billboard', to: '/layanan/billboard' },
     { label: 'Neon Box', to: '/layanan/neon-box' },
-    { label: 'Kampanye', to: '/layanan/kampanye' },
+    { label: 'Laser Cutting', to: '/layanan/laser-cutting' },
     { label: 'Huruf Timbul', to: '/layanan/huruf-timbul' },
     { label: 'Semua Layanan', to: '/layanan' },
 ]
