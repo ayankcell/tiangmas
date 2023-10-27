@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://tiangmas.com',
     name: 'Tiangmas Advertising Lampung',
-    trailingSlash:true
+    trailingSlash:false
   },
   app: {
     head: {
