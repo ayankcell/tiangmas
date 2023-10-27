@@ -27,8 +27,18 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-simple-sitemap',
     'nuxt-schema-org',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    'nuxt-gtag',
+    'nuxt-delay-hydration',
   ],
+  gtag:{
+    id: 'G-8KQRP5YHZN'
+  },
+  delayHydration: {
+    mode: 'mount',
+    // enables nuxt-delay-hydration in dev mode for testing
+    debug: process.env.NODE_ENV === 'development'
+  },
   image:{
     format:['webp'],
     providers:{

@@ -13,6 +13,8 @@
     "@nuxt/devtools": "latest",
     "ipx": "^2.0.0",
     "nuxt": "^3.7.4",
+    "nuxt-delay-hydration": "^1.2.3",
+    "nuxt-gtag": "^1.1.1",
     "nuxt-schema-org": "^3.0.1",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
