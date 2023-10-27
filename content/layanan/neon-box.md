@@ -5,9 +5,8 @@ coverImage:
   altText: "Neon Box Lampung IB Darmajaya Bandar Lampung"
 head:
   title: "Neon Box di Lampung: Temukan Kualitas Terbaik dengan Tiang Mas"
-  description: 'Cari Jasa Pembuatan Neon Box di Lampung? Tiang Mas Advertising hadir untuk solusi iklan terbaik Anda. Menarik, berkualitas, dan terjangkau'
+  description: Cari Jasa Pembuatan Neon Box di Lampung? Tiang Mas Advertising hadir untuk solusi iklan terbaik Anda. Menarik, berkualitas, dan terjangkau'
 ---
-## Neon Box di Lampung: Temukan Kualitas Terbaik dengan Tiang Mas
 
 Pernahkah Anda melihat neon box yang berkilau di sepanjang jalan, menarik perhatian Anda, dan meninggalkan kesan mendalam? Neon box adalah elemen penting dalam dunia periklanan dan branding bisnis. 
 Mereka bukan hanya sumber cahaya yang menarik, tetapi juga alat untuk memvisualisasikan merek Anda, menarik pelanggan, dan menciptakan identitas yang kuat.

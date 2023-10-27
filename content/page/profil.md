@@ -1,6 +1,7 @@
 ---
 title: 'Tentang Tiang Mas Advertising'
 head:
+  title: 'Profil Singkat PT. Tiang Mas Teknik Perdana - Tiang Mas Advertising Lampung'
   description: 'Profil Singkat Tiang Mas Advertising Lampung.  Kami adalah mitra yang dapat diandalkan untuk mengembangkan bisnis Anda.  Temukan produk yang sesuai dengan keperluan Bisnis Anda di sini.'
 coverImage:
   url: '/img/pageassets/tiang-mas-billboard.jpg'
