@@ -18,7 +18,7 @@
                                     <div
                                         class="flex flex-col justify-center items-center transition-all duration-200 p-3 bg-black bg-opacity-60 text-white 
                                         group-hover:-translate-y-full group-hover:h-full">
-                                        <div class="line-clamp-3">{{ content.description }}</div>
+                                        <div class="line-clamp-3">{{ content.head.description }}</div>
                                         <UButton icon="i-heroicons-magnifying-glass-plus" color="white"/>
                                     </div>
                                 </div>

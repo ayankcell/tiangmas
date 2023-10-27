@@ -1,7 +1,9 @@
 ---
 title: 'Hubungi Kami: Advertising Lampung'
-description: 'Jika anda sedang membutuhkan jasa advertising di Lampung, jangan ragu untuk menghubungi kami.  Dapatkan konsultasi gratis untuk produk yang sesuai keperluan Anda'
-image: 
+head:
+  description: 'Jika anda sedang membutuhkan jasa advertising di Lampung, jangan ragu untuk menghubungi kami.  Dapatkan konsultasi gratis untuk produk yang sesuai keperluan Anda'
+coverImage:
+  url: 
     url: '/img/pageassets/tiangmas-billboard--flyover.jpg'
     altText: ''
 toc: false

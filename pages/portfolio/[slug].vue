@@ -1,9 +1,10 @@
 <template>
     <NuxtLayout>
-        <p>Halaman dalam pengembangan</p>
-        {{ slug }}
+        
     </NuxtLayout>
 </template>
 <script setup>
 const slug = useRoute().params.slug
+const pageData = await queryContent(`portfolio/${slug}`).findOne();
+// console.log(pageData)
 </script>

@@ -9,9 +9,9 @@
                         <header class="w-full my-5">
                             <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
                                 {{ pageData.title }}</h1>
-                            <nuxt-img provider="photon" :src="pageData.image.url"
+                            <nuxt-img provider="photon" :src="pageData.coverImage.url" v-if="pageData.coverImage"
                                 class="h-80 w-full overflow-hidden shadow-md rounded object-cover" width="840" height="331"
-                                quality="90" :placeholder="placeHolder(pageData.image.url)" :alt="pageData.image.altText" />
+                                quality="90" :placeholder="placeHolder(pageData.coverImage.url)" :alt="pageData.coverImage.url.altText" />
                         </header>
                         <!-- table of contents-->
                         <Toc :links="pageData.body.toc.links" v-if="pageData.toc || pageData.toc == undefined" />
@@ -39,7 +39,7 @@ const pageData = await queryContent(`page/${slug}`).findOne();
 const seoData = {
     title: pageData.title,
     description: pageData.description,
-    image: pageData.image.url
+    image: pageData.coverImage.url
 }
 useSeoMeta({
     title: seoData.title

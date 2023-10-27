@@ -34,13 +34,13 @@
                                 <ULink :to="content._path">
                                     <nuxt-img provider="photon"
                                         :src="content.coverImage ? content.coverImage.url : placeHolder('', { showSVG: true, width: 256, height: 192 })"
-                                        :alt="content.coverImage ? content.coverImage.altText : content.pageTitle"
+                                        :alt="content.coverImage ? content.coverImage.altText : content.title"
                                         quality="80" :placeholder="placeHolder()" width="346" height="208"
                                         class="w-full h-full object-cover" />
                                 </ULink>
                             </div>
                             <div class="p-3">
-                                <h3 class="text-gray-600 text-center font-semibold">{{ content.pageTitle }}</h3>
+                                <h3 class="text-gray-600 text-center font-semibold">{{ content.title }}</h3>
                                 <p class="text-sm text-gray-500 line-clamp-2">{{ content.description }}</p>
                             </div>
                             <div class="flex justify-end p-3">
