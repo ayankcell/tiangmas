@@ -16,7 +16,6 @@
 const props = defineProps(['path', 'title'])
 const paths = ref(props.path.split('/'))
 paths.value.shift() // hilangkan empty array element
-console.log(props.title)
 
 paths.value = paths.value.map((item: string, index: number) => {
     index++

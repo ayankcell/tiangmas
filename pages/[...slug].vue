@@ -13,5 +13,4 @@
 const slug = useRoute().params.slug
 // // fetch content
 const data=  await queryContent(`layanan/${slug}`).findOne();
-// console.log(data)
 </script>

@@ -100,8 +100,6 @@
 </template>
 <script setup>
 const slug = useRoute().params.slug
-console.log(slug)
 // // fetch content
 const data = await queryContent(`page/${slug}`).findOne();
-console.log(data)
 </script>
