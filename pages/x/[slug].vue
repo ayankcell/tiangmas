@@ -20,4 +20,7 @@ useServerSeoMeta({
     title: `Menghubungkan ke ${data.name} Tiangmas`,
     robots: 'noindex,nofollow'
 })
+useServerSeoMeta({
+    robots: 'noindex'
+})
 </script>
