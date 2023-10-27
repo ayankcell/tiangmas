@@ -11,7 +11,7 @@
                                 {{ pageData.title }}</h1>
                             <nuxt-img provider="photon" :src="pageData.coverImage.url" v-if="pageData.coverImage"
                                 class="h-80 w-full overflow-hidden shadow-md rounded object-cover" width="840" height="331"
-                                quality="90" :placeholder="placeHolder(pageData.coverImage.url)" :alt="pageData.coverImage.url.altText" />
+                                quality="90" :placeholder="placeHolder(pageData.coverImage.url)" :alt="pageData.coverImage.altText" />
                         </header>
                         <!-- table of contents-->
                         <Toc :links="pageData.body.toc.links" v-if="pageData.toc || pageData.toc == undefined" />

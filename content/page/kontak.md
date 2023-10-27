@@ -4,7 +4,7 @@ head:
   description: 'Jika anda sedang membutuhkan jasa advertising di Lampung, jangan ragu untuk menghubungi kami.  Dapatkan konsultasi gratis untuk produk yang sesuai keperluan Anda'
 coverImage:
   url: '/img/pageassets/tiangmas-billboard--flyover.jpg'
-  altText: ''
+  altText: 'Ilustrasi Giant Billboard Tiang Mas Advertising Lampung'
 toc: false
 ---
 ## Hubungi Kami
