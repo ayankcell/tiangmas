@@ -30,7 +30,7 @@ Tiang Mas Advertising Lampung bukan hanya perusahaan biasa. Tiangmas Advertising
 2. **Advertising Dalam Ruang:** Kami juga menawarkan solusi advertising dalam ruang seperti spanduk, neon box, dan papan reklame indoor.
 3. **Konstruksi:** Selain menyediakan media periklanan, Tiang Mas juga hadir memberikan solusi untuk keperluan konstruksi dan pembuatan booth untuk usaha anda.
 
-::contentVideo{url="/video/laser-speed.mp4" width="600" height="320"}
+::contentVideo{url="/video/laser-speed.mp4" width="600" height="320" thumbnail="/img/assets/laser-cutting-thumbnail.jpg"}
 ::
 
 ### Pendekatan Unik Tiang Mas Advertising Lampung

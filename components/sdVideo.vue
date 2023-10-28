@@ -5,7 +5,7 @@
     </div>
 </template>
 <script setup>
-const props = defineProps(['url', 'width', 'height'])
+const props = defineProps(['url', 'width', 'height','thumbnail'])
 const { placeHolder } = useTiangMas()
 const videoLoaded = ref(false)
 
@@ -37,7 +37,7 @@ useSchemaOrg([
         inLanguage: 'id-ID',
         width: props.width,
         height: props.height,
-        thumbnailUrl: placeHolder('',{width:props.width,height:props.height}),
+        thumbnailUrl: props.thumbnail? props.thumbnail : '/img/asssets/default.jpg',
         uploadDate: new Date().toString()
     })
 ])

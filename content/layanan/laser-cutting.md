@@ -38,7 +38,7 @@ Pencahayaan yang efektif adalah salah satu aspek yang sering diabaikan dalam des
 
 ## Laser Cutting vs. Metode Konvensional
 
-::contentVideo{url="/video/laser-speed.mp4" width="600" height="320"}
+::contentVideo{url="/video/laser-speed.mp4" width="600" height="320" thumbnail="/img/assets/laser-cutting-thumbnail.jpg"}
 ::
 
 Dalam perbandingan antara Laser Cutting dan metode konvensional, terdapat perbedaan signifikan dalam hal fleksibilitas desain dan hasil akhir yang lebih presisi. Teknologi Laser Cutting memberikan tingkat akurasi yang sulit ditandingi.
