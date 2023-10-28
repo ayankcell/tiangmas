@@ -33,11 +33,11 @@ onMounted(()=>{
 
 useSchemaOrg([
     defineVideo({
-        url: props.url,
+        contentURL: `https://tiangmas.com${props.url}`,
         inLanguage: 'id-ID',
         width: props.width,
         height: props.height,
-        thumbnailUrl: props.thumbnail? props.thumbnail : '/img/asssets/default.jpg',
+        thumbnailURL: props.thumbnail? 'https://tiangmas.com' + props.thumbnail : 'https://tiangmas.com/img/asssets/default.jpg',
         uploadDate: new Date().toString()
     })
 ])
