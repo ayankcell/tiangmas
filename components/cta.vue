@@ -9,5 +9,10 @@
         <UButton size="xl" icon="i-heroicons-magnifying-glass" color="sky" to="/portfolio">
             Lihat Contoh Yang Kami Kerjakan
         </UButton>
+
+        <Maps v-if="!!maps" class="w-full"/>
     </div>
 </template>
+<script setup>
+const props = defineProps(['maps'])
+</script>

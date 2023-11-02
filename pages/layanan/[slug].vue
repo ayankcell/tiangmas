@@ -6,6 +6,7 @@
             <div id="primary" class="lg:flex">
                 <main class="w-full lg:w-3/4 px-3 lg:px-8 py-3 shadow-md">
                     <article>
+                        <Breadcrumbs :path="route.path" :title="pageData.title" />
                         <header class="w-full my-5">
                             <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
                                 {{ pageData.title }}</h1>
@@ -13,9 +14,9 @@
                                 class="w-full lg:h-[519px] object-cover rounded-md" width="768" height="519" quality="80"
                                 :placeholder="placeHolder(pageData.coverImage.url)" :alt="pageData.coverImage.altText" />
                         </header>
-                        <Cta />
+                        <Cta/>
                         <ContentDoc :path="`/layanan/${slug}`" />
-                        <Cta />
+                        <Cta :maps="true" />
                     </article>
                 </main>
                 <!--secondary right-->
@@ -35,6 +36,11 @@ const route = useRoute()
 const { placeHolder } = useTiangMas()
 // // fetch content
 const pageData = await queryContent(`layanan/${slug}`).findOne();
+
+/** SEO */
+useServerSeoMeta({
+    ogImage: pageData.coverImage.url
+})
 
 useSchemaOrg([
     defineProduct({

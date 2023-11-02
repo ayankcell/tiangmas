@@ -1,5 +1,9 @@
 <template>
-    <div class="flex justify-center items-center py-5" id="tiangmas-gmap">
+    <div class="flex flex-col justify-center items-center py-5" id="tiangmas-gmap">
+        <div class="w-full p-5 text-center">
+            <h3>PT. Tiang Mas Teknik Perdana</h3>
+            <p>Jl. Sentot Alibasya, Sukarame, Kota Bandar Lampung, Indonesia</p>
+        </div>
         <!-- placeholder maps -->
         <NuxtImg src="/img/pageassets/tiangmas-map.jpg" loading="lazy" provider="photon" alt="Peta Lokasi Tiangmas Adv" class="w-full h-[450px] object-cover" v-show="!mapLoaded"/>
     </div>

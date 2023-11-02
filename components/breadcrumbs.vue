@@ -1,13 +1,13 @@
 <template>
     <div class="flex items-center py-4 overflow-x-auto whitespace-nowrap w-full">
-        <ULink to="/" class="text-gray-600 flex items-center">
+        <UButton to="/" color="gray" variant="soft" size="lg">
             <UIcon name="i-heroicons-home" />
-        </ULink>
+        </UButton>
         <div v-for="(path, i) in paths" :key="path" class="flex items-center w-fit">
             <UIcon name="i-heroicons-chevron-right" />
-            <ULink :to="path.path" class="hover:underline" :class="path.isLast ? 'text-blue-600' : 'text-gray-600'">
+            <UButton :to="!path.isLast?path.path : false" color="gray" variant="soft" size="lg">
                 {{ path.label }}
-            </ULink>
+            </UButton>
         </div>
 
     </div>

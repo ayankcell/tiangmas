@@ -128,14 +128,13 @@
                 </div>
             </UContainer>
         </section>
-        <section class="bg-sky-600 py-12">
+        <section class="bg-sky-600 py-12 text-white">
             <UContainer>
                 <Headline tag="h2" align="center">
                     Diskusikan Dengan Tim Kami Sekarang!
                     <template #subtitle>Apapun kebutuhan Anda, kami berikan penawaran terbaik.</template>
                 </Headline>
-                <Cta />
-                <Maps />
+                <Cta :maps="true"/>
             </UContainer>
         </section>
     </NuxtLayout>
