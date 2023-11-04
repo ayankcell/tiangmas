@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     trailingSlash:false
   },
   app: {
+    rootId:'app',
+    buildAssetsDir: '/_assets/',
     head: {
       htmlAttrs: {
         lang: 'id'
