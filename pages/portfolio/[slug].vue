@@ -6,10 +6,10 @@
                 <h1 class="text-xl">{{ data.title }}</h1>
             </header>
             <main class="w-full py-2 my-12">
-                <div class="md:flex p-3 shadow-md rounded-md">
+                <div class="md:flex md:flex-wrap p-3 shadow-md rounded-md">
                     <div class="w-full md:w-9/12">
-                        <NuxtImg :src="data.image.url" :alt="data.image.altText" provider="photon" class="w-full rounded-xl"
-                            width="1200" :placeholder="placeHolder(data.image.url)" />
+                        <NuxtImg :src="data.images[0].url" :alt="data.images[0].altText" provider="photon"
+                            class="w-full rounded-xl" width="1200" :placeholder="placeHolder(data.images[0].url)" />
                     </div>
                     <div class="p-2 md:w-3/12">
                         <span class="bg-amber-600 inline-block w-6 h-6"></span>
@@ -17,19 +17,24 @@
                             {{ data.description }}
                         </p>
                     </div>
+                    <div class="w-full p-3 flex flex-wrap gap-3 justify-center items-center">
+                        <NuxtImg :src="image.url" v-for="image of data.images" :key="image.url" :alt="image.altText" height="300" provider="photon"
+                            width="300" :placeholder="placeHolder('', { width: 300, height: 300 })" />
+                    </div>
                 </div>
-
+                <!-- Call to Action Buttons-->
                 <Cta class="my-8" />
-
+                <!-- Other Portfolios-->
                 <div class="flex flex-wrap p-3 shadow-md my-6">
                     <div class="w-full">
                         <h2 class="text-lg">Hasil Karya Kami Lainnya:</h2>
                     </div>
                     <div class="w-full md:w-1/3 p-2" v-for=" related of relatedPortfolio" :key="related._path">
-                        <UCard :ui="{background:'bg-white dark:bg-white', ring: 'dark:ring-gray-200', divide: 'dark:divide-gray-200'}">
+                        <UCard
+                            :ui="{ background: 'bg-white dark:bg-white', ring: 'dark:ring-gray-200', divide: 'dark:divide-gray-200' }">
                             <NuxtLink :to="related._path">
-                                <NuxtImg :src="related.image.url" :alt="related.image.altText" width="300" height="300"
-                                    :placeholder="placeHolder(related.image.url)" provider="photon"
+                                <NuxtImg :src="related.images[0].url" :alt="related.images[0].altText" width="300"
+                                    height="300" :placeholder="placeHolder(related.images[0].url)" provider="photon"
                                     class="w-full md:mx-auto md:h-[300px] md:w-[300px] rounded-md"
                                     :modifiers="{ lb: '300,300,cccccc' }" />
                             </NuxtLink>
@@ -65,6 +70,6 @@ useSeoMeta({
 useServerSeoMeta({
     title: data.value.title,
     description: data.value.description,
-    ogImage: data.value.image.url 
+    ogImage: data.value.images[0].url
 })
 </script>
