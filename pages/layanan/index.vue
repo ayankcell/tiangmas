@@ -3,7 +3,8 @@
 
         <Head>
             <Title>Layanan Tiang Mas Advertising</Title>
-            <Meta />
+            <Meta name="description" content="Produk dan layanan Tiang Mas Advertising Lampung meliputi periklanan luar ruangan, konstruksi, dan lainnya.  Melayani wilayah kota Bandar Lampung, Provinsi Lampung dan area Sumatra"/>
+            <Meta name="og:image" content="/img/pageassets/huruf-timbul-pascasarjana-uinril.jpg"/>
         </Head>
 
         <Hero>
@@ -45,7 +46,7 @@
                                 <p class="text-sm text-gray-500 line-clamp-2">{{ content.description }}</p>
                             </div>
                             <div class="flex justify-end p-3">
-                                <UButton :to="content._path" size="md" color="red" :ui="{ font: 'font-semibold' }"
+                                <UButton :to="content._path" size="md" color="orange" :ui="{ font: 'font-semibold' }"
                                     icon="i-heroicons-chevron-right" :trailing="true">
                                     Info Lengkap
                                 </UButton>

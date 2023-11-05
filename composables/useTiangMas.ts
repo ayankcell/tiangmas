@@ -28,10 +28,29 @@ const canonicalGen = (route: Object) => {
     //@ts-ignore
     return route.path.endsWith("/") ? route.path : route.path + "/";
 }
+/** slug to String */
+function slugToName(slug:string) {
+    const slugPart = slug.split('-')
+    const slugPartProcess = slugPart.map((item) => {
+        return item.charAt(0).toUpperCase() + item.slice(1)
+    })
+
+    return slugPartProcess.join(' ')
+}
+
+/** date */
+function tanggal(tgl:string){
+    return new Date(tgl).toLocaleDateString('id-ID',{
+        day:'numeric',year:'numeric', month:'short'
+    })
+}
+
 export default function () {
     return {
         placeHolder,
         photonConvert,
-        canonicalGen
+        canonicalGen,
+        slugToName,
+        tanggal
     }
 }
