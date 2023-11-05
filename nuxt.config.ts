@@ -66,6 +66,7 @@ export default defineNuxtConfig({
   routeRules:{
     '/**': {prerender:true},
     '/service/**': {redirect:'/layanan'},
+    '/home': {redirect:'/'},
     '/produk/**': {redirect:'/layanan'},
     '/kontak/**': {redirect:'/p/kontak'},
     '/tentang-kami/**': {redirect:'/p/profil'},
