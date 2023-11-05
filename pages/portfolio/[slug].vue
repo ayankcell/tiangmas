@@ -61,7 +61,7 @@ const { data } = await useAsyncData(() => {
     return queryContent(`portfolio/${slug}`).findOne();
 })
 /** related portfolio */
-const relatedPortfolio = await queryContent('portfolio').where({ _path: { $ne: slug } }).find();
+const relatedPortfolio = await queryContent('portfolio').where({ _path : { $ne: data.value._path } }).find();
 
 /** SEO */
 useSeoMeta({

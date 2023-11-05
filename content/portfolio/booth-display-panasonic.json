@@ -1,0 +1,9 @@
+{
+  "title": "Booth Display",
+  "description": "Display Booth dan Meja untuk toko elektronik.",
+  "images": [
+    {"url": "/img/pageassets/booth-display-panasonic-1.jpg", "altText": "Display Booth dan Meja untuk toko elektronik."},
+    {"url": "/img/pageassets/booth-display-panasonic.jpg", "altText": "Meja display Panasonic Lampung"}
+  ],
+  "location" : "Lampung"
+}
