@@ -40,4 +40,9 @@ useSeoMeta({
     title: 'Galeri Portofolio :: Yang Kami Kerjakan di Tiangmas Advertising & Contractors',
     description: 'Lihat daftar produk dan jasa yang kami kerjakan untuk client kami.  Anda pun dapat memilikinya untuk promosi bisnis dan event anda!'
 })
+useServerSeoMeta({
+    title: 'Galeri Portofolio :: Yang Kami Kerjakan di Tiangmas Advertising & Contractors',
+    description: 'Lihat daftar produk dan jasa yang kami kerjakan untuk client kami.  Anda pun dapat memilikinya untuk promosi bisnis dan event anda!',
+    ogImage: '/img/pageassets/huruf-timbul-champoil-lg.jpeg'
+})
 </script>
