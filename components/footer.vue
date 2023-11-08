@@ -47,8 +47,9 @@
                             <h3 class="uppercase text-white">Kontak</h3>
                             <span class="block mt-2 text-sm text-gray-400 hover:underline">0811 669
                                 003</span>
-                            <span
-                                class="block mt-2 text-sm text-gray-400 hover:underline">example@email.com</span>
+                            <span class="block mt-2 text-sm text-gray-400">Jl. Sentot Alibasya, Sukarame, Kota Bandar Lampung, Indonesia
+
+</span>
                         </div>
                     </div>
                 </div>

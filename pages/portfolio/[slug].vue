@@ -60,6 +60,10 @@ const { placeHolder } = useTiangMas()
 const { data } = await useAsyncData(() => {
     return queryContent(`portfolio/${slug}`).findOne();
 })
+/** return 404 if no route */
+if(data.value === null){
+    throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
+}
 /** related portfolio */
 const relatedPortfolio = await queryContent('portfolio').where({ _path : { $ne: data.value._path } }).find();
 
