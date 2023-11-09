@@ -69,6 +69,7 @@ export default defineNuxtConfig({
     '/home': {redirect:'/'},
     '/produk/**': {redirect:'/layanan'},
     '/kontak/**': {redirect:'/p/kontak'},
+    '/page/kontak': {redirect:'/p/kontak'},
     '/tentang-kami/**': {redirect:'/p/profil'},
     '/category/**': {redirect:'/'},
     '/portfolio/kitchen-set-lampung-2': {redirect: '/portfolio/kitchen-set-lampung'},
