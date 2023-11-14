@@ -9,7 +9,7 @@ coverImage:
   url: '/img/pageassets/neonbox-alfamart.jpg'
   altText: 'Tempat Membuat Neon Box Bandar Lampung'
 ---
-Ketika kita berbicara tentang periklanan luar ruangan yang efektif, tidak bisa dipungkiri bahwa neon box memainkan peran kunci dalam menarik perhatian dan mempromosikan bisnis. Di Lampung, ada satu nama yang telah lama dikenal sebagai [ahli neon box Bandar Lampung](/layanan/neon-box), yaitu Tiang Mas Advertising. 
+Ketika kita berbicara tentang periklanan luar ruangan yang efektif, tidak bisa dipungkiri bahwa neon box memainkan peran kunci dalam menarik perhatian dan mempromosikan bisnis. Di Lampung, ada satu nama yang telah lama dikenal sebagai ahli [neon box Bandar Lampung](/layanan/neon-box), yaitu Tiang Mas Advertising. 
 <!--more-->
 
 Dalam artikel ini, kita akan menjelajahi dunia neon box, kreativitas, manfaatnya, proses pembuatannya, dan mengapa Tiang Mas Advertising dianggap sebagai pilihan terbaik.
