@@ -14,7 +14,7 @@ Periklanan luar ruangan adalah salah satu bentuk periklanan yang telah lama menj
 
 ## Billboard dan Baliho: Definisi dan Karakteristik
 
-Sebelum kita memahami perbedaan antara keduanya, mari kita kenali terlebih dahulu apa yang dimaksud dengan billboard dan baliho. Billboard adalah bentuk media periklanan yang besar, biasanya terbuat dari bahan tahan cuaca dan ditempatkan di lokasi-lokasi strategis, seperti tepi jalan tol atau persimpangan jalan yang ramai. 
+Sebelum kita memahami perbedaan antara keduanya, mari kita kenali terlebih dahulu apa yang dimaksud dengan billboard dan baliho. [Billboard](/layanan/billboard) adalah bentuk media periklanan yang besar, biasanya terbuat dari bahan tahan cuaca dan ditempatkan di lokasi-lokasi strategis, seperti tepi jalan tol atau persimpangan jalan yang ramai. 
 
 Di sisi lain, baliho adalah media periklanan yang juga besar, tetapi lebih fleksibel dalam perancangannya. Baliho sering kali terbuat dari kanvas atau bahan yang bisa dicetak, dan dapat ditempatkan di berbagai tempat, seperti dinding gedung, fasad bangunan, atau bahkan di kawasan perbelanjaan.
 

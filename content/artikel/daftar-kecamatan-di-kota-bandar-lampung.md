@@ -13,7 +13,7 @@ Kota Bandar Lampung, ibukota Provinsi Lampung, adalah pusat kegiatan ekonomi, so
 <!--more-->
 ## Signifikansi Pentingnya Mengetahui Daftar Kecamatan di Kota Ini
 
-Pentingnya mengetahui daftar kecamatan di Kota Bandar Lampung tidak hanya sebatas informasi administratif belaka. Ini juga berhubungan dengan cara kota ini berkembang, bagaimana layanan publik diselenggarakan, serta bagaimana masyarakat diorganisir. Dalam artikel ini, kita akan menjelajahi sejarah pembentukan Kota Bandar Lampung, struktur administratifnya, dan berapa jumlah kecamatan yang ada.
+Pentingnya mengetahui daftar kecamatan di [Kota Bandar Lampung](/) tidak hanya sebatas informasi administratif belaka. Ini juga berhubungan dengan cara kota ini berkembang, bagaimana layanan publik diselenggarakan, serta bagaimana masyarakat diorganisir. Dalam artikel ini, kita akan menjelajahi sejarah pembentukan Kota Bandar Lampung, struktur administratifnya, dan berapa jumlah kecamatan yang ada.
 
 ## Sejarah Pembentukan Kota Bandar Lampung
 
