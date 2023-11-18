@@ -1,6 +1,6 @@
 ---
 title: 'Daftar Kecamatan di Kota Bandar Lampung'
-date: '2023-11-05'
+date: '2023-11-05T014:40:00+07:00'
 author: 'ahyar'
 head:
   title: 'Inilah Daftar Kecamatan Lengkap di Kota Bandar Lampung'

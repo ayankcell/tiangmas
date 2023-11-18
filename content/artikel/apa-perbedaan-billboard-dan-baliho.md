@@ -1,6 +1,6 @@
 ---
 title: 'Membedah Perbedaan Billboard dan Baliho'
-date: '2023-11-05'
+date: '2023-11-05T07:00:00+07:00'
 author: 'ahyar'
 head:
   title: 'Jangan Salah Pilih! Inilah Perbedaan Billboard dan Baliho'
