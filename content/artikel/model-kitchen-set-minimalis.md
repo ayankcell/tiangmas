@@ -12,7 +12,7 @@ coverImage:
 
 Dapur adalah jantung rumah, tempat di mana kenangan dan hidangan lezat dibuat. Namun, apa yang terjadi jika ruang dapur yang kita miliki berukuran terbatas? 
 
-Inilah yang menjadi sebab trend-nya desain yang efisien dan estetis dengan konsep dapur dan [kitchen set minimalis](/artikel/model-kithenset-minimalis).
+Inilah yang menjadi sebab trend-nya desain yang efisien dan estetis dengan konsep dapur dan [kitchen set minimalis](/artikel/model-kitchen-set-minimalis).
 
 ## Pengertian Dapur Minimalis
 
