@@ -12,7 +12,7 @@ coverImage:
 
 Dapur adalah jantung rumah, tempat di mana kenangan dan hidangan lezat dibuat. Namun, apa yang terjadi jika ruang dapur yang kita miliki berukuran terbatas? 
 
-Inilah yang menjadi sebab trend-nya desain yang efisien dan estetis dengan konsep dapur dan kitchen set minimalis.
+Inilah yang menjadi sebab trend-nya desain yang efisien dan estetis dengan konsep dapur dan [kitchen set minimalis](/artikel/model-kithenset-minimalis).
 
 ## Pengertian Dapur Minimalis
 
@@ -26,7 +26,7 @@ Desain ini tidak hanya memberikan kesan visual yang menarik, tetapi juga mencipt
 
 Dengan mengutamakan esensi dan mengeliminasi elemen yang tidak perlu, dapur minimalis menghadirkan solusi modern untuk menciptakan ruang dapur yang estetis dan berfungsi.
 
-Oleh karena itu diperlukan penempatan dan desain kitchen set yang tepat.  Di antara konsep kitchen set untuk ruang dapur yang terbatas, dapat mengikuti panduan berikut ini:
+Oleh karena itu diperlukan penempatan dan desain [kitchen set](/portfolio/kitchen-set-lampung) yang tepat.  Di antara konsep kitchen set untuk ruang dapur yang terbatas, dapat mengikuti panduan berikut ini:
 
 ### 1. Pemanfaatan Ruang dengan Penyimpanan yang Efisien
 Desain penyimpanan yang efisien adalah kunci dalam menciptakan kitchen set minimalis yang berhasil. Dalam ruang yang terbatas, pemanfaatan ruang vertikal menjadi solusi pintar. 
