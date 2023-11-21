@@ -67,12 +67,13 @@ pageData.body.children.splice(indexToInsert, 0, insertElem)
 
 /** SEO Things */
 const seoData = {
-    title: pageData.title,
-    description: pageData.description,
+    title: pageData.head.title,
+    description: pageData.head.description,
     image: pageData.coverImage.url
 }
 useSeoMeta({
-    title: seoData.title
+    title: seoData.title,
+    description: seoData.description,
 })
 useServerSeoMeta({
     title: seoData.title,

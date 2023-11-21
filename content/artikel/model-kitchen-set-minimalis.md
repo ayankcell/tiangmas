@@ -9,11 +9,10 @@ coverImage:
   url: '/img/pageassets/kitchen-set-lampung-2.jpg'
   altText: 'Ide Kitchen Set Minimalis'
 ---
-
 Dapur adalah jantung rumah, tempat di mana kenangan dan hidangan lezat dibuat. Namun, apa yang terjadi jika ruang dapur yang kita miliki berukuran terbatas? 
 
 Inilah yang menjadi sebab trend-nya desain yang efisien dan estetis dengan konsep dapur dan [kitchen set minimalis](/artikel/model-kitchen-set-minimalis).
-
+<!--more-->
 ## Pengertian Dapur Minimalis
 
 Dapur minimalis adalah pendekatan desain interior yang menekankan kesederhanaan, kebersihan, dan efisien dalam penggunaan ruang memasak. Konsep ini menggabungkan estetika yang bersih dengan fungsionalitas yang optimal, menciptakan lingkungan dapur yang terorganisir dan nyaman. 
