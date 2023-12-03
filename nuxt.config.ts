@@ -73,7 +73,8 @@ export default defineNuxtConfig({
     '/tentang-kami/**': {redirect:'/p/profil'},
     '/category/**': {redirect:'/'},
     '/portfolio/kitchen-set-lampung-2': {redirect: '/portfolio/kitchen-set-lampung'},
-    '/portfolio/kitchen-set-lampung-3': {redirect: '/portfolio/kitchen-set-lampung'}
+    '/portfolio/kitchen-set-lampung-3': {redirect: '/portfolio/kitchen-set-lampung'},
+    '/artikel/daftar-kecamatan-di-kota-bandar-lampung': {redirect:'/artikel/jumlah-kecamatan-di-bandar-lampung/'}
   },
   sitemap:{
     sitemaps:true,
