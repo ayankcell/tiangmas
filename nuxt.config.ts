@@ -74,7 +74,17 @@ export default defineNuxtConfig({
     '/category/**': {redirect:'/'},
     '/portfolio/kitchen-set-lampung-2/**': {redirect: '/portfolio/kitchen-set-lampung'},
     '/portfolio/kitchen-set-lampung-3/**': {redirect: '/portfolio/kitchen-set-lampung'},
-    '/artikel/daftar-kecamatan-di-kota-bandar-lampung/**': {redirect:'/artikel/jumlah-kecamatan-di-bandar-lampung'}
+    '/artikel/daftar-kecamatan-di-kota-bandar-lampung/*': {redirect:'/artikel/jumlah-kecamatan-di-bandar-lampung'},
+    '/semua-berita.html':{redirect:'/artikel'},
+    '/hal-visi-dan-misi-perusahaan.html': {redirect:'/p/profil'},
+    '/kitchen-set-lampung/*':{redirect:'/artikel/model-kitchen-set-minimalis'},
+    '/hal-sejarah-perusahaan.html': {redirect: '/p/profil'},
+    '/contact.html': {redirect:'/p/kontak'},
+    '/layanan/kampanye/*':{redirect:'/layanan/billboard'},
+    '/layanan/baliho/*':{redirect:'/layanan/billboard'},
+    '/champoil-putra-bodas-lampung':{redirect: '/portfolio/champoil-putra-bodas-lampung'},
+    '/download.html': {redirect:'/'},
+    '/category/plots/*': {redirect:'/'}
   },
   sitemap:{
     sitemaps:true,
