@@ -63,6 +63,13 @@ export default defineNuxtConfig({
       base64: true
     }
   },
+  content:{
+    markdown:{
+      rehypePlugins:{
+        'rehype-external-links': false,
+      }
+    }
+  },
   routeRules:{
     '/**': {prerender:true},
     '/service/**': {redirect:'/layanan'},

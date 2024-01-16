@@ -5,6 +5,11 @@
             <ul>
                 <li v-for="link of links" :key="link.id">
                     <a :href="`#${link.id}`" class="text-gray-600 hover:text-gray-500">{{ link.text }}</a>
+                    <ul v-if="link.children">
+                        <li v-for="sublink of link.children" :key="sublink.id" class="list-disc">
+                            <a :href="`#${sublink.id}`" class="text-gray-600 hover:text-gray-500">{{ sublink.text }}</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
