@@ -28,7 +28,7 @@ Neon Box adalah media promosi yang dilengkapi dengan lampu neon atau LED untuk m
 
 ## Kenapa Neon Box Populer?
 
-::sd-image{src="contoh-neon-box-mixue-way-halim-bandar-lampung.jpg" alt="contoh neon box akrilik Mixue di bandar lampung"}
+::sd-image{src="/img/pageassets/contoh-neon-box-mixue-way-halim-bandar-lampung.jpg" alt="contoh neon box akrilik Mixue di bandar lampung"}
 Contoh Neon Box toko Mixue di Way Halim, Bandar Lampung
 ::
 
