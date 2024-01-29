@@ -40,7 +40,7 @@ Pagar Cutting Wayang
 Gerbang laser Cutting
 ::
 
-::sd-image{width="500" src="/img/pageassetes/pagar-cutting-lampung.jpg" alt="Laser Cutting Lampung"}
+::sd-image{width="500" src="/img/pageassets/pagar-cutting-lampung.jpg" alt="Laser Cutting Lampung"}
 Desain Khas Lampung
 ::
 ## Layanan lainnya
