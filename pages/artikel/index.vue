@@ -25,10 +25,7 @@
                                         content.body.children[0].children[0].value }}
                                 </div>
                             </div>
-                            <div class="flex justify-end py-4">
-                                <UButton :to="content._path" icon="i-heroicons-chevron-right" :trailing="true" color="gray">
-                                    Baca Selengkapnya</UButton>
-                            </div>
+                            
                         </div>
                     </div>
                 </ContentList>

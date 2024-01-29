@@ -72,11 +72,11 @@ export default defineNuxtConfig({
   },
   routeRules:{
     '/**': {prerender:true},
-    '/service/**': {redirect:'/layanan'},
-    '/home/**': {redirect:'/'},
-    '/produk/**': {redirect:'/layanan'},
-    '/kontak/**': {redirect:'/p/kontak'},
-    '/page/kontak/**': {redirect:'/p/kontak'},
+    '/service/*': {redirect:'/layanan'},
+    '/home/*': {redirect:'/'},
+    '/produk/*': {redirect:'/layanan'},
+    '/kontak/*': {redirect:'/p/kontak'},
+    '/page/kontak/*': {redirect:'/p/kontak'},
     '/tentang-kami/**': {redirect:'/p/profil'},
     '/category/**': {redirect:'/'},
     '/portfolio/kitchen-set-lampung-2/**': {redirect: '/portfolio/kitchen-set-lampung'},
@@ -91,7 +91,8 @@ export default defineNuxtConfig({
     '/layanan/baliho/*':{redirect:'/layanan/billboard'},
     '/champoil-putra-bodas-lampung':{redirect: '/portfolio/champoil-putra-bodas-lampung'},
     '/download.html': {redirect:'/'},
-    '/category/plots/*': {redirect:'/'}
+    '/category/plots/*': {redirect:'/'},
+    '/page/profil/*': {redirect: '/p/profil'}
   },
   sitemap:{
     sitemaps:true,
