@@ -1,12 +1,9 @@
 <template>
     <div class="flex items-center py-4 overflow-x-auto whitespace-nowrap w-full">
-        <UButton to="/" color="gray" variant="soft" size="lg">
-            <UIcon name="i-heroicons-home" />
-        </UButton>
-        <div v-for="(path, i) in paths" :key="path" class="flex items-center w-fit">
-            <UIcon name="i-heroicons-chevron-right" />
-            <UButton :to="!path.isLast?path.path : false" color="gray" variant="soft" size="lg">
-                {{ path.label }}
+         <div v-for="(path, i) in breadcrumb" :key="i" class="flex items-center w-fit">
+            <UIcon name="i-heroicons-chevron-right" v-if="i>0"/>
+            <UButton :to="path.item" color="gray" variant="soft" size="lg">
+                {{ path.name }}
             </UButton>
         </div>
 
@@ -14,14 +11,31 @@
 </template>
 <script setup lang="ts">
 const props = defineProps(['path', 'title'])
-const paths = ref(props.path.split('/'))
-paths.value.shift() // hilangkan empty array element
+const breadcrumb = ref([{name:'Home', item:'/'}])
 
-paths.value = paths.value.map((item: string, index: number) => {
-    index++
-    const path = index < paths.value.length ? `/${item}` : props.path
-    const isLast = index == paths.value.length
+const paths = props.path.endsWith('/') ? props.path.slice(0, -1) : props.path
 
-    return { path: path, label: isLast ? props.title : item.charAt(0).toUpperCase() + item.slice(1), isLast: isLast }
+const pathParts = paths.split('/')
+
+for (let i = 2; i <= pathParts.length; i++) {
+    //@ts-ignore
+    breadcrumb.value.push({
+        name: i==pathParts.length? props.title : slugToName(pathParts.slice(0, i).join('/')),
+        item: pathParts.slice(0, i).join('/')
+    })
+}
+
+function slugToName(slug:string) {
+    const slugPart = slug.replace(/\//g,'').split('-')
+    const slugPartProcess = slugPart.map((item) => {
+        return item.charAt(0).toUpperCase() + item.slice(1)
+    })
+
+    return slugPartProcess.join(' ')
+}
+
+//schema org
+defineBreadcrumb({
+    itemListElement: breadcrumb.value
 })
 </script>
