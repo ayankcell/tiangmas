@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /*
 Disallow: /x/*
+Disallow: /*nuxt/*
+Disallow: /*/api/*
+Disallow: /*/_assets/*
 
 Sitemap: https://tiangmas.com/sitemap_index.xml
