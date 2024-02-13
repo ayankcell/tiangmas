@@ -95,8 +95,6 @@ export default defineNuxtConfig({
     '/page/profil/*': {redirect: '/p/profil'}
   },
   sitemap:{
-    sitemaps:true,
-    defaultSitemapsChunkSize:150,
     exclude:[
       '/x/**'
     ]
@@ -107,13 +105,4 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'dark'
   },
-
-  // gtm: {
-  //   id: 'GTM-NTG6WQ2',
-  //   defer: true,
-  //   compatibility: true,
-  //   enabled: true,
-  //   enableRouterSync: true,
-  //   trackOnNextTick: true
-  // }
 })

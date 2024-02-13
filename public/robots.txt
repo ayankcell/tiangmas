@@ -3,6 +3,6 @@ Allow: /*
 Disallow: /x/*
 Disallow: /*nuxt/*
 Disallow: /*/api/*
-Disallow: /*/_assets/*
+Disallow: /*_assets/*
 
 Sitemap: https://tiangmas.com/sitemap_index.xml
