@@ -30,7 +30,7 @@ Untuk promosi online di sosial media, Instagram bisa jadi salah satu pilihan ter
 ::sd-image{src="/img/pageassets/banner-menu-makanan.jpg" alt="Contoh Banner Makanan di IG"}
 ::
 
-::button{link="https://drive.google.com/file/d/1s35N-PYh2G6DHiMGPnK7rdPsMHOWg--w/view?usp=sharing"}
+::sd-btn{link="https://drive.google.com/file/d/1s35N-PYh2G6DHiMGPnK7rdPsMHOWg--w/view?usp=sharing"}
 Download PSD
 ::
 
