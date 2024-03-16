@@ -20,6 +20,7 @@ Selain itu PT. Tiang Mas juga merupakan vendor konstruksi yang dapat menjadi pil
 
 ## Kenapa Memilih Outdoor Advertising?
 ::sdImage{src="/img/pageassets/flyover-mall-boemi-kedaton-bandar-lampung.jpg" alt="Contoh Advertising Lampung di Bandar Lampung" width="800"}
+::
 
 Periklanan luar ruangan atau lebih dikenal dengan outdoor advertising tidak bisa tergantikan meski dengan perkembangan periklanan digital yang masif. Hal ini karena periklanan digital seperti Facebook Ads atau Tiktok Ads mungkin tidak cocok dengan semua kampanye promosi perusahaan.
 
