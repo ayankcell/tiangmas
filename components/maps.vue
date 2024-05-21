@@ -5,7 +5,7 @@
             <p>Jl. Sentot Alibasya, Sukarame, Kota Bandar Lampung, Indonesia</p>
         </div>
         <!-- placeholder maps -->
-        <NuxtImg src="/img/pageassets/tiangmas-map.jpg" loading="lazy" provider="photon" alt="Peta Lokasi Tiangmas Adv" class="w-full h-[450px] object-cover" v-show="!mapLoaded"/>
+        <NuxtImg src="/img/pageassets/tiangmas-map.jpg" loading="lazy"  alt="Peta Lokasi Tiangmas Adv" class="w-full h-[450px] object-cover" v-show="!mapLoaded"/>
     </div>
 </template>
 <script setup>

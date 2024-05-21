@@ -8,7 +8,7 @@
             <main class="w-full py-2 my-12">
                 <div class="md:flex md:flex-wrap p-3 shadow-md rounded-md">
                     <div class="w-full md:w-9/12">
-                        <NuxtImg :src="data.images[0].url" :alt="data.images[0].altText" provider="photon"
+                        <NuxtImg :src="data.images[0].url" :alt="data.images[0].altText" 
                             class="w-full rounded-xl" width="1200" :placeholder="placeHolder(data.images[0].url)" />
                     </div>
                     <div class="p-2 md:w-3/12">
@@ -18,7 +18,7 @@
                         </p>
                     </div>
                     <div class="w-full p-3 flex flex-wrap gap-3 justify-center items-center">
-                        <NuxtImg :src="image.url" v-for="image of data.images" :key="image.url" :alt="image.altText" height="300" provider="photon"
+                        <NuxtImg :src="image.url" v-for="image of data.images" :key="image.url" :alt="image.altText" height="300" 
                             width="300" :placeholder="placeHolder('', { width: 300, height: 300 })" />
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                             :ui="{ background: 'bg-white dark:bg-white', ring: 'dark:ring-gray-200', divide: 'dark:divide-gray-200' }">
                             <NuxtLink :to="related._path">
                                 <NuxtImg :src="related.images[0].url" :alt="related.images[0].altText" width="300"
-                                    height="300" :placeholder="placeHolder(related.images[0].url)" provider="photon"
+                                    height="300" :placeholder="placeHolder(related.images[0].url)" 
                                     class="w-full md:mx-auto md:h-[300px] md:w-[300px] rounded-md"
                                     :modifiers="{ lb: '300,300,cccccc' }" />
                             </NuxtLink>

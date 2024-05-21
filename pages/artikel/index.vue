@@ -10,7 +10,7 @@
                 <ContentList :query="query" v-slot="{ list }">
                     <div class="w-full p-2 shadow" :class="i > 0 ? 'flex' : ''" v-for="(content, i) in list" :key="content._path">
                         <NuxtLink :to="content._path" :class="i > 0 ? 'w-1/3' : ''">
-                            <NuxtImg :src="content.coverImage.url" :alt="content.coverImage.altText" provider="photon"
+                            <NuxtImg :src="content.coverImage.url" :alt="content.coverImage.altText" 
                                 :class="i > 0 ? 'h-32 md:h-full' : 'w-full h-52 md:h-96'" class="object-cover rounded"
                                 :width="i > 0 ? '300' : ''" :height="i > 0 ? '300' : ''" />
                         </NuxtLink>

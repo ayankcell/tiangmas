@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center items-center py-8" id="tiangmas-video">
-        <NuxtImg :src="placeHolder('',{width:width,height:height})" loading="lazy" provider="photon" alt="Peta Lokasi Tiangmas Adv"
+        <NuxtImg :src="placeHolder('',{width:width,height:height})" loading="lazy"  alt="Peta Lokasi Tiangmas Adv"
         :width="width" :height="height" v-show="!videoLoaded" />
     </div>
 </template>

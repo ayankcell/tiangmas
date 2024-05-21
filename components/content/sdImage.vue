@@ -1,6 +1,6 @@
 <template>
     <figure class="my-1 w-full">
-        <nuxt-img :src="src" provider="photon" :alt="alt" loading="lazy" :placeholder="placeHolder('',{height:height??300,width:width??300})"
+        <nuxt-img :src="src"  :alt="alt" loading="lazy" :placeholder="placeHolder('',{height:height??300,width:width??300})"
         :width="width" :height="height" class="mx-auto rounded-lg"
         />
         <div class="text-sm italic">

@@ -22,7 +22,7 @@
                     </div>
 
                     <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2 h-[250px] md:h-80 overflow-hidden">
-                        <nuxt-img provider="photon" v-for="(item, i) in services" :key="i" :src="item.img" alt="item.label" width="500"
+                        <nuxt-img  v-for="(item, i) in services" :key="i" :src="item.img" alt="item.label" width="500"
                             height="300" :placeholder="placeHolder(item.img)" quality="80" :loading="i==0?'eager': 'lazy'"
                             class="transition-all duration-300 ease-in-out -transla" :class="i === sActive ? 'translate-x-0' : '-translate-x-32 w-0'" />
                     </div>
@@ -116,7 +116,7 @@
                         </p>
 
                         <div class="flex items-center mt-6">
-                            <nuxt-img provider="photon" class="object-cover rounded-full w-14 h-14" :src="item.photo" quality="80"
+                            <nuxt-img  class="object-cover rounded-full w-14 h-14" :src="item.photo" quality="80"
                                 :alt="`testimoni dari ${item.name}, ${item.title}`" :placeholder="placeHolder(item.photo)"
                                 loading="lazy" />
                             <div class="mx-4">
