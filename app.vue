@@ -15,7 +15,9 @@ watchEffect(() => {
     isOpen.value = false
   }
 })
-
+useSeoMeta({
+  ogSiteName: 'Tiang Mas Advertising Lampung'
+})
 useSchemaOrg([
   defineOrganization({
     name: 'Tiang Mas Advertising Lampung',
