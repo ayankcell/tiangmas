@@ -14,7 +14,7 @@
             </template>
             <template #image>
                 <nuxt-img  src="/img/pageassets/pusing.png" alt="pusing mau promosi" width="499"
-                    height="466" :placeholder="placeHolder('/img/pageassets/pusing.png')" quality="80" />
+                    height="466" :placeholder="[499, 466, 10,50]" quality="80" fit="cover"/>
             </template>
         </Hero>
         <!-- main content -->
@@ -34,11 +34,9 @@
                             <div class="container h-52 overflow-hidden">
                                 <ULink :to="content._path">
                                     <nuxt-img 
-                                        :src="content.coverImage ? content.coverImage.url : placeHolder('', { showSVG: true, width: 256, height: 192 })"
-                                        :alt="content.coverImage ? content.coverImage.altText : content.title" :placeholder="placeHolder('', { showSVG: true, width: 256, height: 192 })" width="381" height="208"
-                                        class="w-full h-full object-cover" :modifiers="{
-                                            lb:'381,208'
-                                        }"/>
+                                        :src="content.coverImage ? content.coverImage.url : ''"
+                                        :alt="content.coverImage ? content.coverImage.altText : content.title" :placeholder="[381,208,10,50]" width="381" height="208"
+                                        class="w-full h-full object-cover" fit="cover"/>
                                 </ULink>
                             </div>
                             <div class="p-3">
@@ -71,7 +69,3 @@
 
     </NuxtLayout>
 </template>
-
-<script setup>
-const { placeHolder } = useTiangMas()
-</script>

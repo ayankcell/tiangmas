@@ -23,7 +23,7 @@
 
                     <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2 h-[250px] md:h-80 overflow-hidden">
                         <nuxt-img  v-for="(item, i) in services" :key="i" :src="item.img" alt="item.label" width="500"
-                            height="300" :placeholder="placeHolder(item.img)" quality="80" :loading="i==0?'eager': 'lazy'"
+                            height="300" :placeholder="[500,300,10,50]" quality="80" :loading="i==0?'eager': 'lazy'"
                             class="transition-all duration-300 ease-in-out -transla" :class="i === sActive ? 'translate-x-0' : '-translate-x-32 w-0'" />
                     </div>
                 </div>
@@ -110,21 +110,21 @@
                 </p>
 
                 <div class="grid grid-cols-1 gap-8 mx-auto mt-8 lg:grid-cols-2 xl:mt-10 max-w-7xl">
-                    <div v-for="(item, i) in testimonials" :key="i" class="p-6 bg-gray-600 rounded-lg md:p-8">
+                    <!-- <div v-for="(item, i) in testimonials" :key="i" class="p-6 bg-gray-600 rounded-lg md:p-8">
                         <p class="leading-loose text-gray-300">
                             “{{ item.description }}”.
                         </p>
 
                         <div class="flex items-center mt-6">
                             <nuxt-img  class="object-cover rounded-full w-14 h-14" :src="item.photo" quality="80"
-                                :alt="`testimoni dari ${item.name}, ${item.title}`" :placeholder="placeHolder(item.photo)"
+                                :alt="`testimoni dari ${item.name}, ${item.title}`" :placeholder="[]"
                                 loading="lazy" />
                             <div class="mx-4">
                                 <h3 class="font-semibold text-blue-500">{{ item.name }}</h3>
                                 <span class="text-sm text-gray-300">{{ item.title }}</span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </UContainer>
         </section>
@@ -140,7 +140,6 @@
     </NuxtLayout>
 </template>
 <script setup>
-const { placeHolder } = useTiangMas()
 const sActive = ref(0)
 const services = [
 { label: 'Billboard', img: '/img/pageassets/billboard.png' },
@@ -178,18 +177,18 @@ const theReasons = [
 ]
 
 const testimonials = [
-    {
-        name: 'Saprudin',
-        photo: '/img/pageassets/user-testimonials-example.jpg',
-        title: 'Owner, Warung Bakso Mang Udin - Lampung',
-        description: 'Saya puas dengan hasil pengerjaan Tiang Mas Advertising ini.  Jadwalnya gak ngaret. Tepat waktu buat cabang baru.'
-    },
-    {
-        name: 'Ikhsan',
-        title: 'Store Manager, Sabar Subur Mart - Bandar Lampung',
-        photo: '/img/pageassets/user-testimonials-example.jpg',
-        description: 'Komunikasi dengan team di Tiang Mas sangat menyenangkan.  Selain itu pengerjaan sesuai spek yang diberikan.  Good job!'
-    }
+    // {
+    //     name: 'Saprudin',
+    //     photo: '/img/pageassets/user-testimonials-example.jpg',
+    //     title: 'Owner, Warung Bakso Mang Udin - Lampung',
+    //     description: 'Saya puas dengan hasil pengerjaan Tiang Mas Advertising ini.  Jadwalnya gak ngaret. Tepat waktu buat cabang baru.'
+    // },
+    // {
+    //     name: 'Ikhsan',
+    //     title: 'Store Manager, Sabar Subur Mart - Bandar Lampung',
+    //     photo: '/img/pageassets/user-testimonials-example.jpg',
+    //     description: 'Komunikasi dengan team di Tiang Mas sangat menyenangkan.  Selain itu pengerjaan sesuai spek yang diberikan.  Good job!'
+    // }
 ]
 
 const layanan = [

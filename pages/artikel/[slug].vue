@@ -10,16 +10,17 @@
                         <header class="w-full my-5 text-sm">
                             <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
                                 {{ pageData.title }}</h1>
-                            <nuxt-img  :src="pageData.coverImage.url" v-if="pageData.coverImage"
+                            <nuxt-img :src="pageData.coverImage.url" v-if="pageData.coverImage"
                                 class="h-80 md:h-96 w-full overflow-hidden shadow-md rounded object-cover" width="840"
-                                height="331" quality="90" :placeholder="placeHolder(pageData.coverImage.url)"
+                                height="331" quality="80" :placeholder="[840, 331, 10, 50]"
                                 :alt="pageData.coverImage.altText" />
                             <div class="flex justify-between py-5">
                                 <div class="font-semibold inline-flex gap-1 justify-center items-center">
                                     <div class="h-10 w-10 bg-gray-200 flex rounded-full justify-center items-center">
                                         <UIcon name="i-heroicons-user-circle" class="h-8 w-8" />
                                     </div>
-                                    <div>Ditulis oleh: <span class="text-red-700">{{ slugToName(pageData.author) }}</span>
+                                    <div>Ditulis oleh: <span class="text-red-700">{{ slugToName(pageData.author)
+                                            }}</span>
                                     </div>
                                 </div>
                                 <div class="flex items-center">
@@ -49,7 +50,7 @@
     </NuxtLayout>
 </template>
 <script setup>
-const { placeHolder, slugToName, tanggal } = useTiangMas()
+const { slugToName, tanggal } = useTiangMas()
 const slug = useRoute().params.slug
 // // fetch content
 const pageData = await queryContent(`artikel/${slug}`).findOne();

@@ -12,7 +12,7 @@
                                 {{ pageData.title }}</h1>
                             <nuxt-img  v-if="pageData.coverImage" :src="pageData.coverImage.url"
                                 class="w-full lg:h-[519px] object-cover rounded-md" width="768" height="519" quality="80"
-                                :placeholder="placeHolder(pageData.coverImage.url)" :alt="pageData.coverImage.altText" />
+                                :placeholder="[768, 519,10,50]" :alt="pageData.coverImage.altText" />
                         </header>
                         <Cta/>
                         <ContentDoc :path="`/layanan/${slug}`" />
@@ -33,7 +33,6 @@
 <script setup>
 const slug = useRoute().params.slug
 const route = useRoute()
-const { placeHolder } = useTiangMas()
 // // fetch content
 const pageData = await queryContent(`layanan/${slug}`).findOne();
 

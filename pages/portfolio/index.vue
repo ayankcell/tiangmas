@@ -13,8 +13,8 @@
                                 class="group shadow-md h-80 rounded-md overflow-hidden flex flex-col ">
                                 <!-- image -->
                                 <div class="flex-grow overflow-hidden">
-                                    <NuxtImg :src="content.images[0].url"  width="346" height="272" quality="80" class="w-full object-cover h-full" loading="lazy"
-                                        :placeholder="placeHolder('',{width:100, height:100})" :alt="content.images[0].altText"/>
+                                    <NuxtImg :src="content.images[0].url"  width="346" height="272" quality="80" fit="cover" class="w-full object-cover h-full" loading="lazy"
+                                        :placeholder="[346,272,10,50]" :alt="content.images[0].altText"/>
                                     <div
                                         class="flex flex-col justify-center items-center transition-all duration-200 p-3 bg-black bg-opacity-60 text-white 
                                         group-hover:-translate-y-full group-hover:h-full">
@@ -35,7 +35,6 @@
     </NuxtLayout>
 </template>
 <script setup>
-const { placeHolder } = useTiangMas()
 useSeoMeta({
     title: 'Galeri Portofolio :: Yang Kami Kerjakan di Tiangmas Advertising & Contractors',
     description: 'Lihat daftar produk dan jasa yang kami kerjakan untuk client kami.  Anda pun dapat memilikinya untuk promosi bisnis dan event anda!'

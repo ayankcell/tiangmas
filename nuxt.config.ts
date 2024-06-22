@@ -50,7 +50,20 @@ export default defineNuxtConfig({
         },
         name: 'photon',
         provider : '~/providers/photon'
+      },
+      ipx: {
+        modifiers: {
+          quality: 80,
+          format: 'webp'
+        }
       }
+    }
+  },
+  nitro: {
+    preset: 'cloudflare-pages-static',
+    prerender: {
+      routes: ['/', '/sitemap.xml'],
+      crawlLinks: true
     }
   },
   googleFonts: {
