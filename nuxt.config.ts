@@ -4,10 +4,10 @@ export default defineNuxtConfig({
   site: {
     url: 'https://tiangmas.com',
     name: 'Tiangmas Advertising Lampung',
-    trailingSlash:false
+    trailingSlash: false
   },
   app: {
-    rootId:'app',
+    rootId: 'app',
     buildAssetsDir: '/_assets/',
     head: {
       htmlAttrs: {
@@ -33,7 +33,7 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     'nuxt-delay-hydration',
   ],
-  gtag:{
+  gtag: {
     id: 'G-8KQRP5YHZN'
   },
   delayHydration: {
@@ -41,79 +41,71 @@ export default defineNuxtConfig({
     // enables nuxt-delay-hydration in dev mode for testing
     debug: process.env.NODE_ENV === 'development'
   },
-  image:{
-    format:['webp'],
-    providers:{
-      photon:{
-        options:{
-          baseDomain:'tiangmas.com',
-        },
-        name: 'photon',
-        provider : '~/providers/photon'
-      },
-      ipx: {
-        modifiers: {
-          quality: 80,
-          format: 'webp'
-        }
+  image: {
+    provider: 'ipx',
+    format: ['webp', 'avif', 'jpeg', 'png', 'jpg'],
+    ipx: {
+      modifiers: {
+        quality: 80,
+        format: 'webp'
       }
     }
   },
   nitro: {
-    preset: 'cloudflare-pages-static',
+    preset: 'cloudflare-pages',
     prerender: {
-      routes: ['/', '/sitemap.xml'],
+      routes: ['/'],
       crawlLinks: true
     }
   },
   googleFonts: {
     families: {
       Gabarito: {
-        wght: [400,700]
+        wght: [400, 700]
       },
-      'Open+Sans':{wght:[400]},
-      overwriting:false,
+      'Open+Sans': { wght: [400] },
+      overwriting: false,
       base64: true
     }
   },
-  content:{
-    markdown:{
-      rehypePlugins:{
+  content: {
+    markdown: {
+      rehypePlugins: {
         'rehype-external-links': false,
       }
     }
   },
-  routeRules:{
-    '/**': {prerender:true},
-    '/service/*': {redirect:'/layanan'},
-    '/home/*': {redirect:'/'},
-    '/produk/*': {redirect:'/layanan'},
-    '/kontak/*': {redirect:'/p/kontak'},
-    '/page/kontak/*': {redirect:'/p/kontak'},
-    '/tentang-kami/**': {redirect:'/p/profil'},
-    '/category/**': {redirect:'/'},
-    '/portfolio/kitchen-set-lampung-2/**': {redirect: '/portfolio/kitchen-set-lampung'},
-    '/portfolio/kitchen-set-lampung-3/**': {redirect: '/portfolio/kitchen-set-lampung'},
-    '/artikel/daftar-kecamatan-di-kota-bandar-lampung/*': {redirect:'/artikel/jumlah-kecamatan-di-bandar-lampung'},
-    '/semua-berita.html':{redirect:'/artikel'},
-    '/hal-visi-dan-misi-perusahaan.html': {redirect:'/p/profil'},
-    '/kitchen-set-lampung/*':{redirect:'/artikel/model-kitchen-set-minimalis'},
-    '/hal-sejarah-perusahaan.html': {redirect: '/p/profil'},
-    '/contact.html': {redirect:'/p/kontak'},
-    '/layanan/kampanye/*':{redirect:'/layanan/billboard'},
-    '/layanan/baliho/*':{redirect:'/layanan/billboard'},
-    '/champoil-putra-bodas-lampung':{redirect: '/portfolio/champoil-putra-bodas-lampung'},
-    '/download.html': {redirect:'/'},
-    '/category/plots/*': {redirect:'/'},
-    '/page/profil/*': {redirect: '/p/profil'}
+  routeRules: {
+    '/**': { prerender: true },
+    '/service/*': { redirect: '/layanan' },
+    '/home/*': { redirect: '/' },
+    '/produk/*': { redirect: '/layanan' },
+    '/kontak/*': { redirect: '/p/kontak' },
+    '/page/kontak/*': { redirect: '/p/kontak' },
+    '/tentang-kami/**': { redirect: '/p/profil' },
+    '/category/**': { redirect: '/' },
+    '/portfolio/kitchen-set-lampung-2/**': { redirect: '/portfolio/kitchen-set-lampung' },
+    '/portfolio/kitchen-set-lampung-3/**': { redirect: '/portfolio/kitchen-set-lampung' },
+    '/artikel/daftar-kecamatan-di-kota-bandar-lampung/*': { redirect: '/artikel/jumlah-kecamatan-di-bandar-lampung' },
+    '/semua-berita.html': { redirect: '/artikel' },
+    '/hal-visi-dan-misi-perusahaan.html': { redirect: '/p/profil' },
+    '/kitchen-set-lampung/*': { redirect: '/artikel/model-kitchen-set-minimalis' },
+    '/hal-sejarah-perusahaan.html': { redirect: '/p/profil' },
+    '/contact.html': { redirect: '/p/kontak' },
+    '/layanan/kampanye/*': { redirect: '/layanan/billboard' },
+    '/layanan/baliho/*': { redirect: '/layanan/billboard' },
+    '/champoil-putra-bodas-lampung': { redirect: '/portfolio/champoil-putra-bodas-lampung' },
+    '/download.html': { redirect: '/' },
+    '/category/plots/*': { redirect: '/' },
+    '/page/profil/*': { redirect: '/p/profil' }
   },
-  sitemap:{
-    exclude:[
+  sitemap: {
+    exclude: [
       '/x/**'
     ]
   },
-  ui:{
-    icons:['heroicons','bxl']
+  ui: {
+    icons: ['heroicons', 'bxl']
   },
   colorMode: {
     preference: 'dark'

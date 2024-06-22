@@ -12,7 +12,8 @@
                                     d="M10.359 18.979c0.003 -0.064 0.084 -3.187 0.18 -6.938s0.177 -6.86 0.18 -6.906l0.005 -0.085h0.353l-0.003 0.099 -0.177 6.874a6684.56 6684.56 0 0 1 -0.18 6.924l-0.005 0.15h-0.358zm1.42 0.11a179.099 179.099 0 0 1 -0.101 -1.988 160.275 160.275 0 0 1 -0.087 -11.574c0.007 -0.255 0.013 -0.499 0.013 -0.54 0 -0.044 0.004 -0.075 0.009 -0.073 0.013 0.004 2.104 1.689 2.112 1.702 0.004 0.006 0.01 0.274 0.013 0.595a128.17 128.17 0 0 0 0.697 11.878c0 0.005 -0.496 0.009 -1.328 0.009 -0.73 0 -1.328 -0.004 -1.328 -0.007z" />
                             </svg>
                             <div class="flex flex-col text-white">
-                                <div class="font-gabarito font-bold text-2xl">TIANG<span class="text-amber-400">MAS</span>
+                                <div class="font-gabarito font-bold text-2xl">TIANG<span
+                                        class="text-amber-400">MAS</span>
                                 </div>
                                 <div class="text-xs">Advertising & Contractors</div>
                             </div>
@@ -32,7 +33,8 @@
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                         <div>
                             <h3 class="uppercase text-white">Profil</h3>
-                            <NuxtLink v-for="item of profileLinks" :key="item.to" :to="item.to" class="block mt-2 text-sm text-gray-400 hover:underline">{{ item.label }}</NuxtLink>
+                            <NuxtLink v-for="item of profileLinks" :key="item.to" :to="item.to"
+                                class="block mt-2 text-sm text-gray-400 hover:underline">{{ item.label }}</NuxtLink>
                         </div>
 
                         <div>
@@ -47,9 +49,10 @@
                             <h3 class="uppercase text-white">Kontak</h3>
                             <span class="block mt-2 text-sm text-gray-400 hover:underline">0811 669
                                 003</span>
-                            <span class="block mt-2 text-sm text-gray-400">Jl. Sentot Alibasya, Sukarame, Kota Bandar Lampung, Indonesia
+                            <span class="block mt-2 text-sm text-gray-400">Jl. Sentot Alibasya, Sukarame, Kota Bandar
+                                Lampung, Indonesia
 
-</span>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -73,7 +76,7 @@ const services = [
 ]
 
 const profileLinks = [
-    {label:'Beranda', to:'/'},
+    { label: 'Beranda', to: '/' },
     { label: 'Tentang Perusahaan', to: '/p/profil' },
     { label: 'Kontak', to: '/p/kontak' },
 ]
