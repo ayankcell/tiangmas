@@ -8,7 +8,7 @@
             <main class="w-full py-2 my-12">
                 <div class="md:flex md:flex-wrap p-3 shadow-md rounded-md">
                     <div class="w-full md:w-9/12">
-                        <NuxtImg :src="data.images[0].url" :alt="data.images[0].altText" class="w-full rounded-xl"
+                        <NuxtImg preload :src="data.images[0].url" :alt="data.images[0].altText" class="w-full rounded-xl"
                             width="894" height="503" :placeholder="[894, 503, 10, 50]" fit="cover"/>
                     </div>
                     <div class="p-2 md:w-3/12">

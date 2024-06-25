@@ -23,12 +23,17 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxt/content',
-    'nuxt-simple-sitemap',
     'nuxt-schema-org',
     '@nuxtjs/google-fonts',
     'nuxt-gtag',
     'nuxt-delay-hydration',
+    "@nuxtjs/sitemap"
   ],
+  sitemap:{
+    sources:[
+      '/api/__sitemap__/urls'
+    ]
+  },
   gtag: {
     id: 'G-8KQRP5YHZN'
   },
@@ -89,11 +94,6 @@ export default defineNuxtConfig({
     '/download.html': { redirect: '/' },
     '/category/plots/*': { redirect: '/' },
     '/page/profil/*': { redirect: '/p/profil' }
-  },
-  sitemap: {
-    exclude: [
-      '/x/**'
-    ]
   },
   ui: {
     icons: ['heroicons', 'bxl']
