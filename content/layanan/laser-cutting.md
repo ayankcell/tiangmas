@@ -4,7 +4,7 @@ coverImage:
   url: "/img/pageassets/pagar-laser-cutting-wayang.jpg"
   altText: "Seni di Gerbang Pagar dengan Laser Cutting"
 head:
-  title: "Metal Laser Cutting di Lampung by Tiang Mas Constructions"
+  title: "Metal Laser Cutting di Lampung by Tiang Mas Constructions | Tiangmas Advertising Lampung"
   description: "Temukan keindahan dalam desain pagar dan gerbang eksklusif dengan teknologi Laser Cutting bersama Tiang Mas Advertising. Keunggulan desain cepat dan andal hanya di Bandar Lampung"
 ---
 

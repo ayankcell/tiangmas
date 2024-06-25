@@ -4,7 +4,7 @@ coverImage:
   url: "/img/pageassets/huruf-timbul-pascasarjana-uinril.jpg"
   altText: "Huruf Timbul Lampung Pasca Sarjana UIN Lampung"
 head:
-  title: "Workshop Huruf Timbul Bandar Lampung Tiang Mas Advertising"
+  title: "Workshop Huruf Timbul Bandar Lampung Tiang Mas Advertising | Tiangmas Advertising Lampung" 
   description: "Workshop Huruf Timbul Bandar Lampung Tiang Mas Advertising.  Tempat membuat huruf timbul di Lampung.  Huruf timbul toko Lampung."
 ---
 

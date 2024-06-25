@@ -4,7 +4,7 @@ coverImage:
   url: "/img/pageassets/neon-box-darmajaya.jpg"
   altText: "Neon Box Lampung IB Darmajaya Bandar Lampung"
 head:
-  title: "Jasa Neon Box di Lampung: Temukan di Tiang Mas Advertising"
+  title: "Jasa Neon Box di Lampung: Temukan di Tiang Mas Advertising | Tiangmas Advertising Lampung"
   description: Cari Jasa Pembuatan Neon Box di Lampung? Tiang Mas Advertising hadir untuk solusi iklan terbaik Anda. Menarik, berkualitas, dan terjangkau'
 ---
 

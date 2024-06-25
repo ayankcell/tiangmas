@@ -1,7 +1,7 @@
 ---
 title: 'Billboard Lampung'
 head:
-  title: 'Pasang Billboard di Lampung bersama Tiang Mas Advertising, Lebih Mudah, Praktis dan Cepat'
+  title: 'Pasang Billboard di Lampung bersama Tiang Mas Advertising, Lebih Mudah, Praktis dan Cepat | Tiangmas Advertising Lampung'
   description: 'Cari Jasa Pembuatan Neon Box di Lampung? Tiang Mas Advertising hadir untuk solusi iklan terbaik Anda. Menarik, berkualitas, dan terjangkau'
 coverImage:
   url: '/img/pageassets/ruangguru-billboard-1.jpg'

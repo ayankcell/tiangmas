@@ -4,7 +4,7 @@ coverImage:
   url: "/img/pageassets/shop-sign.jpeg"
   altText: "Contoh Shop Sign"
 head:
-  title: "Shop Sign Lampung: Seni Membuat Tampilan Toko Menarik Perhatian Pelanggan"
+  title: "Shop Sign Lampung: Seni Membuat Tampilan Toko Menarik Perhatian Pelanggan | Tiangmas Advertising Lampung"
   description: "Temukan seni dalam menciptakan tampilan toko yang memikat perhatian pelanggan dengan Shop Sign Lampung. Pelajari lebih lanjut bersama Tiang Mas Advertising"
 ---
 Bisnis bukan hanya tentang produk atau layanan yang Anda tawarkan, tetapi juga tentang bagaimana Anda mengkomunikasikan merek dan identitas bisnis Anda kepada dunia. Salah satu cara penting untuk mencapai ini adalah melalui Shop Sign, yang menjadi wajah visual toko atau bisnis Anda. 
