@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   site: {
     url: 'https://tiangmas.com',
     name: 'Tiangmas Advertising Lampung',
-    trailingSlash: false
+    trailingSlash: false,
+    inLanguage: 'id-ID'
   },
   app: {
     rootId: 'app',
@@ -15,11 +16,6 @@ export default defineNuxtConfig({
       },
       script: [
         { type: 'application/ld+json', innerHTML: `{"@context": "https://schema.org","@type": "Organization","url": "https://tiangmas.com","logo": "https://www.sadiskon.com/tiangmas-icon.png"}` }
-      ],
-      link: [
-        { rel: 'preconnect', href: 'https://i0.wp.com' },
-        { rel: 'preconnect', href: 'https://i1.wp.com' },
-        { rel: 'preconnect', href: 'https://i2.wp.com' },
       ],
     }
   },
@@ -44,12 +40,7 @@ export default defineNuxtConfig({
   image: {
     provider: 'ipx',
     format: ['webp', 'avif', 'jpeg', 'png', 'jpg'],
-    ipx: {
-      modifiers: {
-        quality: 80,
-        format: 'webp'
-      }
-    }
+    quality: 80,
   },
   nitro: {
     preset: 'cloudflare-pages',

@@ -45,7 +45,7 @@ useSchemaOrg([
     defineProduct({
         name: pageData.title,
         offers:[{price: 0, priceCurrency:'IDR'}],
-        image: pageData.coverImage? pageData.coverImage.url : 'https://i2.wp.com/tiangmas.com/img/pageassets/ruangguru-billboard-1.jpg'      
+        image: pageData.coverImage? pageData.coverImage.url : 'https://tiangmas.com/img/pageassets/ruangguru-billboard-1.jpg'      
     }),
     defineBreadcrumb({
         itemListElement: [

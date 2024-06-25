@@ -10,7 +10,7 @@
                         <header class="w-full my-5 text-sm">
                             <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
                                 {{ pageData.title }}</h1>
-                            <nuxt-img :src="pageData.coverImage.url" v-if="pageData.coverImage"
+                            <nuxt-img preload :src="pageData.coverImage.url" v-if="pageData.coverImage"
                                 class="h-80 md:h-96 w-full overflow-hidden shadow-md rounded object-cover" width="840"
                                 height="331" quality="80" :placeholder="[840, 331, 10, 50]"
                                 :alt="pageData.coverImage.altText" />

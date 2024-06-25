@@ -24,7 +24,7 @@ useSchemaOrg([
     logo: '/tiangmas-icon.png',
   }),
   defineLocalBusiness({
-    name: 'Tiang Mas Advertising',
+    name: 'Tiang Mas Advertising Lampung',
     logo: '/tiangmas-icon.png',
     image: '/img/pageassets/tiangmas-billboard--flyover.jpg',
     address: {
@@ -36,18 +36,24 @@ useSchemaOrg([
     },
     priceRange: '$$',
     telephone: "+62811669003",
-    geo:{
+    geo: {
       '@type': 'GeoCoordinates',
       latitude: -5.3799167,
       longitude: 105.2990278
     }
+  }),
+  defineWebPage({
+    name: 'Tiangmas Advertising Lampung',
+  }),
+  defineWebSite({
+    name: 'Tiangmas Advertising Lampung',
   })
 ])
 
 /** generate canonical */
 const canonicalGen = (route) => {
-    //@ts-ignore
-    return route.path.endsWith("/") ? route.path.slice(0,-1) : route.path;
+  //@ts-ignore
+  return route.path.endsWith("/") ? route.path.slice(0, -1) : route.path;
 }
 useHead({
   link: [
