@@ -33,9 +33,8 @@
         </main>
     </NuxtLayout>
 </template>
-<script setup lang="ts">
-import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
-const query: QueryBuilderParams = { path: '/artikel', sort: [{ date: -1 }] }
+<script setup>
+const query = { path: '/artikel', sort: [{ date: -1 }] }
 
 const { placeHolder, slugToName } = useTiangMas()
 const seo = {

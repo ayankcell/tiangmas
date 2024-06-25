@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+//@ts-ignore
 export default defineNuxtConfig({
   // devtools: { enabled: true },
   site: {
@@ -32,7 +33,8 @@ export default defineNuxtConfig({
   sitemap:{
     sources:[
       '/api/__sitemap__/urls'
-    ]
+    ],
+    exclude: ['/x/*']
   },
   gtag: {
     id: 'G-8KQRP5YHZN'
@@ -48,7 +50,7 @@ export default defineNuxtConfig({
     quality: 80,
   },
   nitro: {
-    // preset: 'cloudflare-pages',
+    preset: 'cloudflare-pages',
     prerender: {
       routes: ['/'],
       crawlLinks: true

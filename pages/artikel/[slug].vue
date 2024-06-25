@@ -67,6 +67,7 @@ const indexToInsert = halfOfContent
 pageData.body.children.splice(indexToInsert, 0, insertElem)
 
 /** SEO Things */
+const ogimg = useImage()
 const seoData = {
     title: pageData.head.title,
     description: pageData.head.description,
@@ -79,7 +80,7 @@ useSeoMeta({
 useServerSeoMeta({
     title: seoData.title,
     description: seoData.description,
-    ogImage: seoData.image
+    ogImage: ogimg(seoData.image, { width: 1200, height: 630, fit: 'cover' })
 })
 /** structured data */
 useSchemaOrg([
