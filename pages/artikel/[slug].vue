@@ -39,11 +39,7 @@
                     </article>
                 </main>
                 <!--secondary right-->
-                <section class="lg:p-2 xs:w-full lg:flex-grow">
-                    <div class="shadow-md p-2 my-5">
-
-                    </div>
-                </section>
+                <Sidebar />
             </div>
         </UContainer>
 
@@ -69,7 +65,7 @@ pageData.body.children.splice(indexToInsert, 0, insertElem)
 /** SEO Things */
 const ogimg = useImage()
 const seoData = {
-    title: pageData.head.title,
+    title: pageData.head.title + ' | Tiangmas Advertising Lampung',
     description: pageData.head.description,
     image: pageData.coverImage.url
 }

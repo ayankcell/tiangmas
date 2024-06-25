@@ -12,20 +12,16 @@
                             <nuxt-img preload :src="pageData.coverImage.url" v-if="pageData.coverImage"
                                 class="h-80 w-full overflow-hidden shadow-md rounded object-cover" width="840"
                                 height="331" quality="90" fit="cover" :placeholder="[840, 331, 10, 50]"
-                                :alt="pageData.coverImage.altText" :title="pageData.coverImage.altText"/>
+                                :alt="pageData.coverImage.altText" :title="pageData.coverImage.altText" />
                         </header>
                         <!-- table of contents-->
                         <Toc :links="pageData.body.toc.links" v-if="pageData.toc || pageData.toc == undefined" />
-                        <ContentDoc :path="`/page/${slug}`" />
+                        <ContentRenderer :value="pageData"/>
                         <Cta :maps="true" />
                     </article>
                 </main>
                 <!--secondary right-->
-                <section class="lg:p-2 xs:w-full lg:flex-grow">
-                    <div class="shadow-md p-2 my-5">
-
-                    </div>
-                </section>
+                <Sidebar />
             </div>
         </UContainer>
 
@@ -37,7 +33,7 @@ const slug = useRoute().params.slug
 const pageData = await queryContent(`page/${slug}`).findOne();
 /** SEO Things */
 const seoData = {
-    title: pageData.title,
+    title: pageData.title + ' | Tiangmas Advertising Lampung',
     description: pageData.description,
     image: pageData.coverImage.url
 }

@@ -3,7 +3,7 @@
     <NuxtLoadingIndicator />
     <NuxtPage />
     <UNotifications />
-    <FloatCta v-if="!route.fullPath.includes('/x/')" />
+    <FloatCta />
   </div>
 </template>
 <script setup>

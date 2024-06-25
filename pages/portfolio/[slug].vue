@@ -67,10 +67,10 @@ const relatedPortfolio = await queryContent('portfolio').where({ _path: { $ne: d
 
 /** SEO */
 useSeoMeta({
-    title: data.value.title
+    title: data.value.title + ' | Tiangmas Advertising Lampung'
 })
 useServerSeoMeta({
-    title: data.value.title,
+    title: data.value.title + ' | Tiangmas Advertising Lampung',
     description: data.value.description,
     ogImage: data.value.images[0].url
 })

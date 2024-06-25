@@ -38,11 +38,11 @@ const query = { path: '/artikel', sort: [{ date: -1 }] }
 
 const { placeHolder, slugToName } = useTiangMas()
 const seo = {
-    title: 'Berita dan Artikel Bermanfaat',
+    title: 'Berita dan Artikel Bermanfaat | Tiangmas Advertising Lampung',
     description: 'Temukan artikel bermanfaat dan berita terbaru dari Tiangmas Advertising Lampung.'
 }
 useSeoMeta({
-    title: seo.title,
+    title: seo.title ,
     description: seo.description
 })
 useServerSeoMeta({

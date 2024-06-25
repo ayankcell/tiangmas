@@ -11,20 +11,16 @@
                             <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
                                 {{ pageData.title }}</h1>
                             <nuxt-img preload v-if="pageData.coverImage" :src="pageData.coverImage.url"
-                                class="w-full lg:h-[519px] object-cover rounded-md" width="768" height="519" quality="80"
-                                :placeholder="[768, 519,10,50]" :alt="pageData.coverImage.altText" />
+                                class="w-full lg:h-[519px] object-cover rounded-md" width="768" height="519"
+                                quality="80" :placeholder="[768, 519, 10, 50]" :alt="pageData.coverImage.altText" />
                         </header>
-                        <Cta/>
+                        <Cta />
                         <ContentDoc :path="`/layanan/${slug}`" />
                         <Cta :maps="true" />
                     </article>
                 </main>
                 <!--secondary right-->
-                <section class="lg:p-2 xs:w-full lg:flex-grow">
-                    <div class="shadow-md p-2 my-5">
-
-                    </div>
-                </section>
+                <Sidebar />
             </div>
         </UContainer>
 
@@ -37,20 +33,21 @@ const route = useRoute()
 const pageData = await queryContent(`layanan/${slug}`).findOne();
 
 /** SEO */
-useServerSeoMeta({
+
+useSeoMeta({
     ogImage: pageData.coverImage.url
 })
 
 useSchemaOrg([
     defineProduct({
         name: pageData.title,
-        offers:[{price: 0, priceCurrency:'IDR'}],
-        image: pageData.coverImage? pageData.coverImage.url : 'https://tiangmas.com/img/pageassets/ruangguru-billboard-1.jpg'      
+        offers: [{ price: 0, priceCurrency: 'IDR' }],
+        image: pageData.coverImage ? pageData.coverImage.url : 'https://tiangmas.com/img/pageassets/ruangguru-billboard-1.jpg'
     }),
     defineBreadcrumb({
         itemListElement: [
             { name: 'Home', item: '/' },
-            { name: 'Layanan', item: '/layanan'},
+            { name: 'Layanan', item: '/layanan' },
             { name: pageData.title }
         ]
     }),

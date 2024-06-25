@@ -2,7 +2,7 @@
     <NuxtLayout>
 
         <Head>
-            <Title>Layanan Tiang Mas Advertising</Title>
+            <Title>Layanan | Tiang Mas Advertising Lampung</Title>
             <Meta name="description" content="Produk dan layanan Tiang Mas Advertising Lampung meliputi periklanan luar ruangan, konstruksi, dan lainnya.  Melayani wilayah kota Bandar Lampung, Provinsi Lampung dan area Sumatra"/>
             <Meta name="og:image" content="/img/pageassets/huruf-timbul-pascasarjana-uinril.jpg"/>
         </Head>
@@ -25,10 +25,10 @@
                 Tiang Mas Advertising
                 <template #subtitle>All in One Advertising Solution in Lampung</template>
             </Headline>
-            <div class="flex w-full flex-wrap items-center justify-center">
+            <div class="w-full md:grid md:grid-cols-3">
 
                 <ContentList path="/layanan" v-slot="{ list }">
-                    <div class="w-full md:w-1/2 lg:w-1/3 p-3" v-for="content in list" :key="content._path">
+                    <div class="w-full p-3" v-for="content in list" :key="content._path">
                         <div
                             class="shadow-lg rounded-md overflow-hidden dark:text-gray-600 bg-white flex flex-col justify-center item-center space-y-2 transition-all duration-200 hover:-translate-y-1">
                             <div class="container h-52 overflow-hidden">
