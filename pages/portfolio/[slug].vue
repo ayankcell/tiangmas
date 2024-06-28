@@ -6,20 +6,20 @@
                 <h1 class="text-xl">{{ data.title }}</h1>
             </header>
             <main class="w-full py-2 my-12">
-                <div class="md:flex md:flex-wrap p-3 shadow-md rounded-md">
-                    <div class="w-full md:w-9/12">
-                        <NuxtImg preload :src="data.images[0].url" :alt="data.images[0].altText" class="w-full rounded-xl"
+                <div class="p-3 shadow-md rounded-md">
+                    <div class="w-full">
+                        <NuxtImg preload :src="data.images[0].url" :alt="data.images[0].altText" :title="data.images[0].altText" class="w-full rounded-xl"
                             width="894" height="503" :placeholder="[894, 503, 10, 50]" fit="cover"/>
                     </div>
-                    <div class="p-2 md:w-3/12">
+                    <div class="p-2 my-8 border-b-2">
                         <span class="bg-amber-600 inline-block w-6 h-6"></span>
                         <p>
                             {{ data.description }}
                         </p>
                     </div>
-                    <div class="w-full p-3 flex flex-wrap gap-3 justify-center items-center">
-                        <NuxtImg :src="image.url" v-for="image of data.images" :key="image.url" :alt="image.altText"
-                            height="300" width="300" :placeholder="[300, 300, 10, 50]" />
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+                        <NuxtImg :src="image.url" v-for="image of data.images" :key="image.url" :alt="image.altText" :title="image.altText"
+                            height="300" width="300" :placeholder="[300, 300, 10, 50]" class="rounded"/>
                     </div>
                 </div>
                 <!-- Call to Action Buttons-->

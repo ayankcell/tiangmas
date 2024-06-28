@@ -21,7 +21,7 @@ for (let i = 2; i <= pathParts.length; i++) {
     //@ts-ignore
     breadcrumb.value.push({
         name: i==pathParts.length? props.title : slugToName(pathParts.slice(0, i).join('/')),
-        item: pathParts.slice(0, i).join('/')
+        item: pathParts.slice(0, i).join('/')+'/'
     })
 }
 

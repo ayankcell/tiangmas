@@ -9,7 +9,7 @@
                 <div class="flex flex-wrap">
                     <ContentList path="/portfolio" v-slot="{ list }">
                         <div class="w-full md:w-1/2 lg:w-1/3 p-3" v-for="content in list" :key="content._path">
-                            <NuxtLink :to="content._path"
+                            <NuxtLink :to="content._path+'/'"
                                 class="group shadow-md h-80 rounded-md overflow-hidden flex flex-col ">
                                 <!-- image -->
                                 <div class="flex-grow overflow-hidden">

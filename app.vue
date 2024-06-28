@@ -51,10 +51,7 @@ useSchemaOrg([
 ])
 
 /** generate canonical */
-const canonicalGen = (route) => {
-  //@ts-ignore
-  return route.path.endsWith("/") ? route.path.slice(0, -1) : route.path;
-}
+const { canonicalGen } = useTiangMas()
 useHead({
   link: [
     { rel: 'canonical', href: `https://tiangmas.com${canonicalGen(route)}` }

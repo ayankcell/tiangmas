@@ -55,10 +55,10 @@ const { isOpen } = useMenuNav()
 
 const navMenus = [
     { label: 'Beranda', to: '/' },
-    { label: 'Profil Perusahaan', to: '/p/profil' },
-    { label: 'Layanan', to: '/layanan' },
-    { label: 'Galeri Portofolio', to: '/portfolio' },
-    { label: 'Kontak', to: '/p/kontak' },
-    { label: 'Artikel', to: '/artikel' },
+    { label: 'Profil Perusahaan', to: '/p/profil/' },
+    { label: 'Layanan', to: '/layanan/' },
+    { label: 'Galeri Portofolio', to: '/portfolio/' },
+    { label: 'Kontak', to: '/p/kontak/' },
+    { label: 'Artikel', to: '/artikel/' },
 ]
 </script>

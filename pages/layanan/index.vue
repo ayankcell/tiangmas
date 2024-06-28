@@ -32,7 +32,7 @@
                         <div
                             class="shadow-lg rounded-md overflow-hidden dark:text-gray-600 bg-white flex flex-col justify-center item-center space-y-2 transition-all duration-200 hover:-translate-y-1">
                             <div class="container h-52 overflow-hidden">
-                                <ULink :to="content._path">
+                                <ULink :to="content._path+'/'">
                                     <nuxt-img 
                                         :src="content.coverImage ? content.coverImage.url : ''"
                                         :alt="content.coverImage ? content.coverImage.altText : content.title" :placeholder="[381,208,10,50]" width="381" height="208"
@@ -44,7 +44,7 @@
                                 <p class="text-sm text-gray-500 line-clamp-2">{{ content.description }}</p>
                             </div>
                             <div class="flex justify-end p-3">
-                                <UButton :to="content._path" size="md" color="orange" :ui="{ font: 'font-semibold' }"
+                                <UButton :to="content._path+'/'" size="md" color="orange" :ui="{ font: 'font-semibold' }"
                                     icon="i-heroicons-chevron-right" :trailing="true">
                                     Info Lengkap
                                 </UButton>
