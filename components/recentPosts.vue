@@ -12,7 +12,17 @@
     </div>
 </template>
 <script setup>
-const currentPath = '/artikel/'+useRoute().params.slug
-console.log(currentPath)
-const { data } = await useAsyncData('recentPosts', () => queryContent('artikel').sort({ date: -1 }).where({ _path: { $not: currentPath } }).limit(8).find())
+const currentPath = '/artikel/' + useRoute().params.slug
+
+// reactive: daftar recent posts exclude halaman aktif
+const data = ref(
+    await queryContent('artikel').sort({ date: -1 }).where({ _path: { $not: currentPath } }).limit(8).find()
+)
+
+// rubah recent post list jika dinavigasi
+watchEffect(async () => {
+    if (useRoute().fullPath) {
+        data.value = await queryContent('artikel').sort({ date: -1 }).where({ _path: { $not: currentPath } }).limit(8).find()
+    }
+})
 </script>
