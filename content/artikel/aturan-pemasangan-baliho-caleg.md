@@ -16,6 +16,9 @@ Dalam masa kampanye, pemasangan baliho merupakan cara yang umum digunakan untuk 
 
 Agar terjadi kapanye yang bersih, tentunya pemasangan baliho caleg (dan pilpres) harus mematuhi aturan yang berlaku menurut KPU dan Bawaslu. Dilansir Tempo.co, berikut ini adalah sejumlah aturan pemasangan baliho caleg yang tidak melanggar.
 
+::rekomendasi{link="/layanan/billboard"}
+::
+
 ## Peraturan KPU Tentang Pemasangan Alat Peraga Kampanye
 
 Menurut Peraturan Komisi Pemilihan Umum Republik Indonesia Nomor 33 Tahun 2018 tentang Perubahan Kedua atas Peraturan Komisi Pemilihan Umum Nomor 23 Tahun 2018 tentang Kampanye Pemilihan Umum:

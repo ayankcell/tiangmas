@@ -51,17 +51,6 @@ const slug = useRoute().params.slug
 // // fetch content
 const pageData = await queryContent(`artikel/${slug}`).findOne();
 
-/** auto inline related */
-const related = await queryContent('/artikel').where({ _path: { $ne: pageData._path } }).only(['_path', 'title', 'coverImage']).sort({ date: -1 }).findOne()
-const insertElem = {
-    type: 'element', tag: 'inlineRelated', props: { link: related._path, title: related.title, coverImage: related.coverImage }
-}
-const halfOfContent = pageData.body.children.length / 2
-
-const indexToInsert = halfOfContent
-
-pageData.body.children.splice(indexToInsert, 0, insertElem)
-
 /** SEO Things */
 const ogimg = useImage()
 const seoData = {

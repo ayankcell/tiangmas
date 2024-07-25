@@ -34,6 +34,8 @@ Billboard, reklame, dan videotron yang ditempatkan di lokasi strategis dapat dil
 
 Sehingga sangat layak dipertimbangkan bagi Anda jika ingin bisnis lebih menjangkau khalayak ramai, khususnya bisnis lokal.
 
+::rekomendasi{link="/artikel/neon-box-akrilik"}
+::
 ### 2. Dampak Visual Yang Kuat
 
 Iklan [Tiktok](https://www.sadiskon.com/blog/cara-join-affiliate-tiktok/) dan Facebook mungkin mempunyai visual yang baik, namun ukuran perangkat tempat di mana iklan ditampilkan sangatlah terbatas. Hal ini tentu saja menjadi nilai plus bagi periklanan outdoor.

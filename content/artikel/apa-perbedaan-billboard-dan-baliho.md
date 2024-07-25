@@ -28,6 +28,9 @@ Salah satu perbedaan utama antara billboard dan baliho terletak pada perancangan
 
 Di sisi lain, baliho memiliki keleluasaan lebih dalam hal desain. Mereka dapat menampilkan gambar yang lebih rumit, pesan yang lebih panjang, dan bahkan elemen desain yang kreatif.
 
+::rekomendasi{link="/artikel/pengertian-baliho-dan-ukurannya"}
+::
+
 ## Keunggulan dan Keterbatasan Billboard
 
 Billboard memiliki keunggulan dalam hal visibilitas. Dengan ukuran besar dan lokasi strategis, billboard mampu menarik perhatian pengendara atau pejalan kaki dengan mudah. Namun, keterbatasan billboard terletak pada pesan yang harus singkat dan langsung, sehingga tidak cocok untuk pesan yang memerlukan penjelasan lebih mendalam.

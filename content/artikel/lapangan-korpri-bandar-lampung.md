@@ -21,6 +21,9 @@ Suasana Lapangan Korpri Bandar Lampung
 
 Lokasi Lapangan Korpri Bandar Lampung berada di pusat kota.  Lebih tepatnya berada di kompleks kantor Gubernur Provinsi Lampung yang beralamat di Jl. Wolter Monginsidi No. 34, Kupang Kota kecamatan Teluk Betung Utara.
 
+::rekomendasi{link="/artikel/jumlah-kecamatan-di-bandar-lampung"}
+::
+
 Selain berada dekat dengan kantor Gubernur Lampung, Lapangan Korpri Bandar Lampung juga belokasi di depan Kantor DPRD provinsi Lampung dan Balai Keratun Lampung, sebuah gedung petemuan di lingkungan Pemerintah Provinsi.
 
 Untuk menuju lapangan korpri Bandar Lampung, kamu bisa mengambil arah ke selatan dari **Tugu Adipura** atau yang dikenal juga dengan **Bundaran Patung Gajah**.  Setelah sampai di simpang Masjid Al-Furqon, mengambil arah kanan.
