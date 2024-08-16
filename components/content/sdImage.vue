@@ -2,7 +2,7 @@
     <figure class="my-1 w-full">
         <nuxt-img :src="src" :alt="alt" loading="lazy" :placeholder="[width, height, 10, 50]" :width="width"
             :height="height" class="mx-auto rounded-lg" />
-        <div class="text-sm italic">
+        <div class="text-sm italic text-center">
             <slot />
         </div>
     </figure>

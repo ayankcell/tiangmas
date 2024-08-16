@@ -1,5 +1,5 @@
 ---
-title: 'Reklame'
+title: 'Reklame Lampung'
 coverImage:
   url: "/img/pageassets/lambang-gedung-kuning.jpg"
   altText: "Reklame, Billboard di Lamban Gedung Kuning Lampung"
