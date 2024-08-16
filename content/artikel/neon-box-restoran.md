@@ -27,7 +27,7 @@ Material yang digunakan dalam pembuatan neon box sangat mempengaruhi tampilan da
 ## Proses Pembuatan Neon Box
 Proses pembuatan neon box melibatkan beberapa tahap. Dimulai dari konseptualisasi desain, dilanjutkan dengan pembuatan blueprint atau sketsa. Selanjutnya, tahap produksi meliputi pemotongan material, pembentukan struktur, pemasangan lampu, dan finishing. Proses ini memerlukan keahlian teknis untuk menghasilkan produk berkualitas tinggi. Pemasangan neon box di lokasi restoran merupakan tahap akhir yang memerlukan perencanaan matang.
 
-::rekomendasi{link="/artikel/bikin-neon-box-brilink/"}
+::rekomendasi{link="/artikel/bikin-neon-box-brilink"}
 ::
 
 ### Perawatan dan Pemeliharaan
