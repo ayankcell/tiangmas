@@ -35,7 +35,5 @@ if (isRelative) {
     });
 
     related.value = data.value
-
-    console.log(slug.value)
 }
 </script>
