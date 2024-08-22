@@ -17,7 +17,7 @@ Bagi pengusaha dan pelaku bisnis yang ingin memasang reklame di kota ini, memaha
 
 ### Kelas Jalan dan Kawasan Reklame
 
-Salah satu aspek penting dalam aturan pemasangan reklame di Bandar Lampung adalah penataan reklame berdasarkan kelas jalan dan kawasan reklame, seperti yang diatur dalam [Perwali nomor 17 tahun 2014](https://peraturan.bpk.go.id/Download/62135/PERATURAN%20WALIKOTA%20BANDAR%20LAMPUNG%20NOMOR%2017%20TAHUN%202014%20TATA%20CARA%20TITIK%20REKLAME%20DAN%20PEMASANGAN%20REKLAME.pdf){_target="_blank"}. Berikut ini adalah pembagian kelas jalan di Kota Bandar Lampung:
+Salah satu aspek penting dalam aturan pemasangan reklame di Bandar Lampung adalah penataan reklame berdasarkan kelas jalan dan kawasan reklame, seperti yang diatur dalam [Perwali nomor 17 tahun 2014](https://peraturan.bpk.go.id/Download/62135/PERATURAN%20WALIKOTA%20BANDAR%20LAMPUNG%20NOMOR%2017%20TAHUN%202014%20TATA%20CARA%20TITIK%20REKLAME%20DAN%20PEMASANGAN%20REKLAME.pdf){:target="_blank"}. Berikut ini adalah pembagian kelas jalan di Kota Bandar Lampung:
 
 1. **Jalan Kelas Utama**:
    - Jalan Ahmad Yani
