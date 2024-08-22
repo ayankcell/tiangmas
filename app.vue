@@ -16,15 +16,15 @@ watchEffect(() => {
   }
 })
 useSeoMeta({
-  ogSiteName: 'Tiang Mas Advertising Lampung'
+  ogSiteName: 'Tiangmas Advertising'
 })
 useSchemaOrg([
   defineOrganization({
-    name: 'Tiang Mas Advertising Lampung',
+    name: 'Tiangmas Advertising',
     logo: '/tiangmas-icon.png',
   }),
   defineLocalBusiness({
-    name: 'Tiang Mas Advertising Lampung',
+    name: 'Tiangmas Advertising',
     logo: '/tiangmas-icon.png',
     image: '/img/pageassets/tiangmas-billboard--flyover.jpg',
     address: {
@@ -43,10 +43,10 @@ useSchemaOrg([
     }
   }),
   defineWebPage({
-    name: 'Tiangmas Advertising Lampung',
+    name: 'Tiangmas Advertising',
   }),
   defineWebSite({
-    name: 'Tiangmas Advertising Lampung',
+    name: 'Tiangmas Advertising',
   })
 ])
 

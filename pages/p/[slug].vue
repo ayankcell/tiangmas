@@ -33,7 +33,7 @@ const slug = useRoute().params.slug
 const pageData = await queryContent(`page/${slug}`).findOne();
 /** SEO Things */
 const seoData = {
-    title: pageData.title + ' | Tiangmas Advertising Lampung',
+    title: pageData.title + ' | Tiangmas Advertising',
     description: pageData.description,
     image: pageData.coverImage.url
 }

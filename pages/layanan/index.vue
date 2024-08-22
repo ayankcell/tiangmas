@@ -2,7 +2,7 @@
     <NuxtLayout>
 
         <Head>
-            <Title>Layanan | Tiang Mas Advertising Lampung</Title>
+            <Title>Daftar Produk dan Layanan | Tiangmas Advertising</Title>
             <Meta name="description" content="Produk dan layanan Tiang Mas Advertising Lampung meliputi periklanan luar ruangan, konstruksi, dan lainnya.  Melayani wilayah kota Bandar Lampung, Provinsi Lampung dan area Sumatra"/>
             <Meta name="og:image" content="/img/pageassets/huruf-timbul-pascasarjana-uinril.jpg"/>
         </Head>

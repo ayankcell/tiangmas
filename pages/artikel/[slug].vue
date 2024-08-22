@@ -54,7 +54,7 @@ const pageData = await queryContent(`artikel/${slug}`).findOne();
 /** SEO Things */
 const ogimg = useImage()
 const seoData = {
-    title: pageData.head.title + ' | Tiangmas Advertising Lampung',
+    title: pageData.head.title + ' | Tiangmas Advertising',
     description: pageData.head.description,
     image: pageData.coverImage.url
 }
