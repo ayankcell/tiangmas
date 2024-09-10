@@ -12,7 +12,7 @@
                                 {{ pageData.title }}</h1>
                             <nuxt-img preload v-if="pageData.coverImage" :src="pageData.coverImage.url"
                                 class="w-full lg:h-[519px] object-cover rounded-md" width="768" height="519"
-                                quality="80" :placeholder="[768, 519, 10, 50]" :alt="pageData.coverImage.altText" />
+                                quality="80" :alt="pageData.coverImage.altText" />
                         </header>
                         <Cta />
                         <ContentDoc :path="`/layanan/${slug}`" />

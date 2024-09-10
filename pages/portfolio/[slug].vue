@@ -9,7 +9,7 @@
                 <div class="p-3 shadow-md rounded-md">
                     <div class="w-full">
                         <NuxtImg preload :src="data.images[0].url" :alt="data.images[0].altText" :title="data.images[0].altText" class="w-full rounded-xl"
-                            width="894" height="503" :placeholder="[894, 503, 10, 50]" fit="cover"/>
+                            width="894" height="503" fit="cover"/>
                     </div>
                     <div class="p-2 my-8 border-b-2">
                         <span class="bg-amber-600 inline-block w-6 h-6"></span>

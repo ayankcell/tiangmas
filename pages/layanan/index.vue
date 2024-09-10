@@ -13,8 +13,8 @@
                 Apapun kebutuhanp promosi yang sedang anda perlukan saat ini, konsultasikan segera dengan kami.
             </template>
             <template #image>
-                <nuxt-img  src="/img/pageassets/pusing.png" alt="pusing mau promosi" width="499"
-                    height="466" :placeholder="[499, 466, 10,50]" quality="80" fit="cover"/>
+                <nuxt-img  src="/img/pageassets/pusing.png" alt="pusing mau promosi" width="499" preload
+                    height="466" quality="80" fit="cover"/>
             </template>
         </Hero>
         <!-- main content -->
@@ -35,7 +35,7 @@
                                 <ULink :to="content._path+'/'">
                                     <nuxt-img 
                                         :src="content.coverImage ? content.coverImage.url : ''"
-                                        :alt="content.coverImage ? content.coverImage.altText : content.title" :placeholder="[381,208,10,50]" width="381" height="208"
+                                        :alt="content.coverImage ? content.coverImage.altText : content.title" width="381" height="208"
                                         class="w-full h-full object-cover" fit="cover"/>
                                 </ULink>
                             </div>

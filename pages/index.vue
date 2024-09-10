@@ -23,7 +23,7 @@
 
                     <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2 h-[250px] md:h-80 overflow-hidden">
                         <nuxt-img  v-for="(item, i) in services" :key="i" :src="item.img" alt="item.label" width="500"
-                            height="300" :placeholder="[500,300,10,50]" quality="80" :loading="i==0?'eager': 'lazy'"
+                            height="300"  quality="80" :loading="i==0?'eager': 'lazy'" preload
                             class="transition-all duration-300 ease-in-out -transla" :class="i === sActive ? 'translate-x-0' : '-translate-x-32 w-0'" />
                     </div>
                 </div>
