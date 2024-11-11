@@ -13,7 +13,10 @@ Promosi yang efektif tidak lagi hanya mengandalkan satu media saja. Di era digit
 
 Artikel ini akan membahas bagaimana bisnis lokal, terutama di Lampung, dapat memanfaatkan kekuatan reklame outdoor untuk memaksimalkan hasil dari promosi digital seperti [kode voucher Shopee](https://www.sadiskon.com/promo/shopee/).  
 
-## Mengapa Reklame Outdoor Masih Efektif?  
+::sdImage{src="/img/pageassets/online-vs-offline.jpg" alt="promosi online vs offline"}
+::
+
+## Mengapa Reklame Outdoor Masih Efektif? 
 
 Meskipun era digital terus berkembang, reklame outdoor tetap menjadi salah satu media promosi paling efektif. Reklame fisik seperti [billboard](/layanan/billboard/), spanduk, dan [baliho](/artikel/pengertian-baliho-dan-ukurannya/) memiliki keunggulan dalam menjangkau orang-orang secara langsung di lokasi strategis.  
 
