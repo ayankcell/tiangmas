@@ -1,5 +1,5 @@
 ---
-title: "Strategi Promosi Cerdas: Kombinasi Reklame Outdoor dan Diskon Online untuk Meningkatkan Penjualan"
+title: "Strategi Promosi Cerdas: Kombinasi Reklame dan Diskon Online"
 date: '2024-11-11'
 author: 'ahyar'
 head:
